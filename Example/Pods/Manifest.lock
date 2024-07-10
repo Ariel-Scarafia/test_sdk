@@ -1,0 +1,27 @@
+PODS:
+  - Fiserv_QR_SDK (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - Fiserv_QR_SDK (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  Fiserv_QR_SDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Fiserv_QR_SDK: e2738327bca4af2c39b6eedc09c6eb4ab22dcfa1
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: 4326e4f6aaca65b7db1e8a611199effca26e5dcb
+
+COCOAPODS: 1.15.2
