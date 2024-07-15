@@ -1,0 +1,14 @@
+//
+//  DevEnviroment.xcconfig
+//  DashPass
+//
+//  Created by Alejandro De Jesus on 23/08/2022.
+//  Copyright © 2022 Francisco Fuentes. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SCHEME = https
+HOST = servicesdev1-api.seedc.net
+ENV_ABR = D

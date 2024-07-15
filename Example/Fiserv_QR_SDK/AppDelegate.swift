@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Fiserv_QR_SDK
 //
-//  Created by Ariel-Scarafia on 07/10/2024.
-//  Copyright (c) 2024 Ariel-Scarafia. All rights reserved.
+//  Created by Ariel Scarafia on 07/10/2024.
+//  Copyright (c) 2024 Applica. All rights reserved.
 //
 
 import UIKit

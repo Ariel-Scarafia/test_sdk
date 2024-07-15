@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Fiserv_QR_SDK/Classes/**/*"
+  "source_files": "Fiserv_QR_SDK/Classes/**/*",
+  "dependencies": {
+    "BarcodeScanner": [
+      "4.1.3"
+    ]
+  }
 }

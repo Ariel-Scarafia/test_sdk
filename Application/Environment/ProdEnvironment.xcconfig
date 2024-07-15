@@ -1,0 +1,14 @@
+//
+//  ProdEnvironment.xcconfig
+//  DashPass
+//
+//  Created by z on 23/08/2022.
+//  Copyright © 2022 Francisco Fuentes. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SCHEME = https
+HOST = secure.dashpassonline.net
+ENV_ABR = P

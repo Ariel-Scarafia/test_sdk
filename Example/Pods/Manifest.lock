@@ -1,27 +1,23 @@
 PODS:
-  - Fiserv_QR_SDK (0.1.0)
-  - Nimble (10.0.0)
-  - Quick (2.2.1)
+  - BarcodeScanner (4.1.3)
+  - Fiserv_QR_SDK (0.1.0):
+    - BarcodeScanner (= 4.1.3)
 
 DEPENDENCIES:
   - Fiserv_QR_SDK (from `../`)
-  - Nimble (~> 10.0.0)
-  - Quick (~> 2.2.0)
 
 SPEC REPOS:
   trunk:
-    - Nimble
-    - Quick
+    - BarcodeScanner
 
 EXTERNAL SOURCES:
   Fiserv_QR_SDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Fiserv_QR_SDK: e2738327bca4af2c39b6eedc09c6eb4ab22dcfa1
-  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  BarcodeScanner: fce1ad2b3f28286b1ab5091fe0979789618bee27
+  Fiserv_QR_SDK: 97463e32fbf86609c54e5216e96924162eb47ae2
 
-PODFILE CHECKSUM: 4326e4f6aaca65b7db1e8a611199effca26e5dcb
+PODFILE CHECKSUM: e426ef707a6c4fe37de14a60d8073221c4a79247
 
 COCOAPODS: 1.15.2
