@@ -35,6 +35,7 @@
 		5A8483852C457ABE0037B8A6 /* DIFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8483842C457ABE0037B8A6 /* DIFramework.swift */; };
 		5A8483872C457B2D0037B8A6 /* Dictionary+DI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8483862C457B2D0037B8A6 /* Dictionary+DI_Extension.swift */; };
 		5A8483892C457B470037B8A6 /* UIViewController+DI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8483882C457B470037B8A6 /* UIViewController+DI_Extension.swift */; };
+		5A84838B2C4581E60037B8A6 /* Fiserv_QR_SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A84838A2C4581E60037B8A6 /* Fiserv_QR_SDK.swift */; };
 		6B8D5DC610C62EB93D8E5A55D3D4C844 /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF38BF94BABAAE44415E2568DCA263D8 /* info@3x.png */; };
 		6C33077F6BBEEFA137313CA1525A18DE /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AE80FE9760736378CAFADCD22DCD3 /* BarcodeScannerViewController.swift */; };
 		6CCC68077295A821AC9C1E7CC2BC35BC /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFB7BE44AD1622DAF19EC6EFD0E2CB /* NSLayoutConstraint+Extensions.swift */; };
@@ -135,6 +136,7 @@
 		5A8483842C457ABE0037B8A6 /* DIFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIFramework.swift; sourceTree = "<group>"; };
 		5A8483862C457B2D0037B8A6 /* Dictionary+DI_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+DI_Extension.swift"; sourceTree = "<group>"; };
 		5A8483882C457B470037B8A6 /* UIViewController+DI_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+DI_Extension.swift"; sourceTree = "<group>"; };
+		5A84838A2C4581E60037B8A6 /* Fiserv_QR_SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiserv_QR_SDK.swift; sourceTree = "<group>"; };
 		5B9AE80FE9760736378CAFADCD22DCD3 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
 		5F0A9874CA38F64C1BEBBF1F0782B386 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
 		5FFB0A153ED8178CBEFE4BF9F15363F5 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				5A84837E2C45785F0037B8A6 /* Extensions */,
 				5A8483792C4574F20037B8A6 /* Environment */,
 				5A84836D2C4573620037B8A6 /* Networking */,
+				5A84838A2C4581E60037B8A6 /* Fiserv_QR_SDK.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -750,6 +753,7 @@
 				5A8483872C457B2D0037B8A6 /* Dictionary+DI_Extension.swift in Sources */,
 				5A8483702C45738D0037B8A6 /* IOError.swift in Sources */,
 				5A8483852C457ABE0037B8A6 /* DIFramework.swift in Sources */,
+				5A84838B2C4581E60037B8A6 /* Fiserv_QR_SDK.swift in Sources */,
 				1B0E9EA223066BD3D1082A65BDAB84BD /* Fiserv_QR_SDK-dummy.m in Sources */,
 				5A8483752C4573A10037B8A6 /* APIProtocol.swift in Sources */,
 				5A8483822C4578C20037B8A6 /* DateFormatter+Extension.swift in Sources */,

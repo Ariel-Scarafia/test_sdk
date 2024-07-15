@@ -22,7 +22,7 @@ pod 'Fiserv_QR_SDK'
 
 ## Author
 
-Ariel-Scarafia, ascarafia@gmail.com
+Ariel Scarafia, ascarafia@gmail.com
 
 ## License
 

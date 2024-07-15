@@ -1,6 +1,5 @@
 //
 //  IOError.swift
-//  DashPass
 //
 //  Created by Ariel Scarafia on 21/04/2023.
 //  Copyright © 2023 Applica. All rights reserved.

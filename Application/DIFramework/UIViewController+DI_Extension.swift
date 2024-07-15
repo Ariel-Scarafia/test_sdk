@@ -1,6 +1,5 @@
 //
 //  UIViewController+DI_Extension.swift
-//  DashPass
 //
 //  Created by Ariel Scarafia on 11/04/2024.
 //  Copyright © 2024 Applica. All rights reserved.
@@ -24,14 +23,14 @@ extension UIViewController {
     }
     
     func removeFromParentContainer() {
-        self.willMove(toParent: nil)
+        self.willMove(toParentViewController: nil)
         //self.view.removeConstraints(self.view.constraints)
         self.view.removeFromSuperview()
-        self.removeFromParent()
+        self.removeFromParentViewController()
     }
     
     func addToContainer(_ container: UIViewController) {
-        container.addChild(self)
-        self.didMove(toParent: container)
+        container.addChildViewController(self)
+        self.didMove(toParentViewController: container)
     }
 }

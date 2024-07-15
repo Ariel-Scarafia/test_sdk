@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '15.0'
+platform :ios, '13.0'
 
 target 'Fiserv_QR_SDK_Example' do
   pod 'Fiserv_QR_SDK', :path => '../'
