@@ -16,7 +16,7 @@ enum Environment: String {
     case API_KEY = "API_KEY"
     
     private static let infoDict: [String: Any] = {
-        guard let info = Bundle.main.infoDictionary else {
+        guard let info = Bundle(identifier: "org.cocoapods.Fiserv-QR-SDK")?.infoDictionary else {
             fatalError("Plist file not found")
         }
         return info

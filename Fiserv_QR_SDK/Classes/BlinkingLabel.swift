@@ -2,6 +2,8 @@
 
 public class BlinkingLabel: UILabel {
 
+    @SharedInstance(\.testRepositoryProvider) private var testRepository: TestService
+    
     public func startBlinking() {
 
         var options : UIViewAnimationOptions = .repeat
@@ -22,6 +24,14 @@ public class BlinkingLabel: UILabel {
 
         layer.removeAllAnimations()
 
+        Task {
+            do {
+                let response = try await testRepository.getData()
+                print("**** Data is: \(response.first)")
+            } catch {
+                print("There was an error: \(error)")
+            }
+        }
     }
 
 }

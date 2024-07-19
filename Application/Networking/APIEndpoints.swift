@@ -12,5 +12,5 @@ struct APIEndpoints {
     static let host = Environment.host.value
     static let apiMobile = "/api/mobile"
     
-    
+    static let getTest = apiMobile + "/getTest"
 }
