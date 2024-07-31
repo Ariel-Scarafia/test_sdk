@@ -2,7 +2,7 @@
 
 //import Quick
 //import Nimble
-import Fiserv_QR_SDK
+//import Fiserv_QR_SDK
 
 //TODO: come back to this when implementing tests
 //class TableOfContentsSpec: QuickSpec {

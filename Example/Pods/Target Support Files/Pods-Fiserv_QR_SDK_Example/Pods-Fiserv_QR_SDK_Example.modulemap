@@ -1,4 +1,4 @@
-framework module Pods_Fiserv_QR_SDK_Example {
+module Pods_Fiserv_QR_SDK_Example {
   umbrella header "Pods-Fiserv_QR_SDK_Example-umbrella.h"
 
   export *

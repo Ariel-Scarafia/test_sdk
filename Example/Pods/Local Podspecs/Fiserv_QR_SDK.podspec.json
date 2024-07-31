@@ -3,22 +3,22 @@
   "version": "0.1.0",
   "summary": "A short description of Fiserv_QR_SDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Ariel-Scarafia/Fiserv_QR_SDK",
+  "homepage": "https://github.com/Ariel-Scarafia/test_sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Ariel-Scarafia": "ascarafia@gmail.com"
+    "Ariel Scarafia": "ascarafia@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Ariel-Scarafia/Fiserv_QR_SDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Ariel-Scarafia/test_sdk.git"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "Fiserv_QR_SDK/Classes/**/*",
+  "vendored_frameworks": "Fiserv_QR_SDK_private.xcframework",
+  "source_files": "SDK_Sources/**/*",
   "dependencies": {
     "BarcodeScanner": [
       "4.1.3"

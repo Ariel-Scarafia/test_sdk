@@ -1,4 +1,4 @@
-framework module Fiserv_QR_SDK {
+module Fiserv_QR_SDK {
   umbrella header "Fiserv_QR_SDK-umbrella.h"
 
   export *
