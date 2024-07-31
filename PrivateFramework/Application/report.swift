@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Report {
+public class Report {
     @SharedInstance(\.testRepositoryProvider) private var testRepository: TestService
     
     func getResponse() {

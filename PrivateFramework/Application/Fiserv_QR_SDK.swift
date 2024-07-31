@@ -11,6 +11,10 @@ public class Fiserv_QR_SDK_MAIN {
     
     static private (set) var apiKey: String = ""
     
+    static public func getAPIKey() -> String {
+        return apiKey
+    }
+    
     static public func setAPIKey(_ apiKey: String) {
         self.apiKey = apiKey
     }

@@ -85,7 +85,7 @@ class SharedProperty: DIFramework {
             }
         }
         
-        if let viewControllers = appWindow?.childViewControllers, !viewControllers.isEmpty {
+        if let viewControllers = appWindow?.children, !viewControllers.isEmpty {
             if checkChildrenViewControllersRecursivelyExcludingHost(host: releasingHostVC, children: viewControllers, injectedType: injectedPropertyDescription) {
                 return true
             }
@@ -102,8 +102,8 @@ class SharedProperty: DIFramework {
                 return true
             }
             
-            if !childViewController.childViewControllers.isEmpty {
-                if checkChildrenViewControllersRecursivelyExcludingHost(host: host, children: childViewController.childViewControllers, injectedType: injectedType) {
+            if !childViewController.children.isEmpty {
+                if checkChildrenViewControllersRecursivelyExcludingHost(host: host, children: childViewController.children, injectedType: injectedType) {
                     return true
                 }
             }

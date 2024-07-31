@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Fiserv_QR_SDK/**/*'
+  s.vendored_frameworks = 'Fiserv_QR_SDK_private.xcframework'
+  
+  s.source_files = 'Fiserv_QR_SDK/SDK_Sources/**/*'
   
   # s.resource_bundles = {
   #   'Fiserv_QR_SDK' => ['Fiserv_QR_SDK/Assets/*.png']

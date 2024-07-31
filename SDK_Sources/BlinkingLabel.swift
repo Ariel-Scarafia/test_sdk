@@ -1,7 +1,10 @@
 //import UIKit
+import Fiserv_QR_SDK_private
 
 public class BlinkingLabel: UILabel {
 
+//    private let reporter = Report()
+    
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -22,7 +25,8 @@ public class BlinkingLabel: UILabel {
 
             }, completion: nil)
 
-        Report().getResponse()
+        self.text = Fiserv_QR_SDK_MAIN.getAPIKey()
+//        reporter.getResponse()
     }
 
     public func stopBlinking() {

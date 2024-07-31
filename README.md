@@ -27,3 +27,32 @@ Ariel Scarafia, ascarafia@gmail.com
 ## License
 
 Fiserv_QR_SDK is available under the MIT license. See the LICENSE file for more info.
+
+
+How to compile framework:
+
+Open terminal inside project dir.
+Type: 
+```
+xcodebuild archive \
+  -scheme Fiserv_QR_SDK_private \
+  -destination "generic/platform=iOS" \
+  -archivePath "./build/iOS.xcarchive" \
+  SKIP_INSTALL=NO \
+  BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+xcodebuild archive \
+  -scheme Fiserv_QR_SDK_private \
+  -destination "generic/platform=iOS Simulator" \
+  -archivePath "./build/iOS-Simulator.xcarchive" \
+  SKIP_INSTALL=NO \
+  BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+```
+
+Then
+```
+xcodebuild -create-xcframework \
+  -framework "./build/iOS.xcarchive/Products/Library/Frameworks/Fiserv_QR_SDK_private.framework" \
+  -framework "./build/iOS-Simulator.xcarchive/Products/Library/Frameworks/Fiserv_QR_SDK_private.framework" \
+  -output "./build/Fiserv_QR_SDK_private.xcframework"
+```

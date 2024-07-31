@@ -23,14 +23,14 @@ extension UIViewController {
     }
     
     func removeFromParentContainer() {
-        self.willMove(toParentViewController: nil)
+        self.willMove(toParent: nil)
         //self.view.removeConstraints(self.view.constraints)
         self.view.removeFromSuperview()
-        self.removeFromParentViewController()
+        self.removeFromParent()
     }
     
     func addToContainer(_ container: UIViewController) {
-        container.addChildViewController(self)
-        self.didMove(toParentViewController: container)
+        container.addChild(self)
+        self.didMove(toParent: container)
     }
 }
