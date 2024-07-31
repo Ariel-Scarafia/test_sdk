@@ -324,12 +324,12 @@
 		5A84836B2C4573340037B8A6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5A84838A2C4581E60037B8A6 /* Fiserv_QR_SDK.swift */,
 				5A7FD4DD2C4ACCA70025626A /* Repository */,
 				5A8483832C457AB30037B8A6 /* DIFramework */,
 				5A84837E2C45785F0037B8A6 /* Extensions */,
 				5A8483792C4574F20037B8A6 /* Environment */,
 				5A84836D2C4573620037B8A6 /* Networking */,
-				5A84838A2C4581E60037B8A6 /* Fiserv_QR_SDK.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
