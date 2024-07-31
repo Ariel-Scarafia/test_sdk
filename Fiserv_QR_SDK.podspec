@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ariel-Scarafia/Fiserv_QR_SDK'
+  s.homepage         = 'https://github.com/Ariel-Scarafia/test_sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ariel-Scarafia' => 'ascarafia@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ariel-Scarafia/Fiserv_QR_SDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Ariel-Scarafia/test_sdk.git' }#, :tag => "dev" }	#s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '17.0'
 
-  s.source_files = 'Fiserv_QR_SDK/Classes/**/*'
+  s.source_files = 'Fiserv_QR_SDK/**/*'
   
   # s.resource_bundles = {
   #   'Fiserv_QR_SDK' => ['Fiserv_QR_SDK/Assets/*.png']
