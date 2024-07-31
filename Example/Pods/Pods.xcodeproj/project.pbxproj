@@ -23,6 +23,8 @@
 		4AEC9BCF7384FD789A5D0BAB2F77991F /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BE3908F405E1693B56C0A4B409765D /* BarcodeScanner-dummy.m */; };
 		4DB3F9C2437E17EC49602F0D058BB765 /* Pods-Fiserv_QR_SDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C340033D4DB7BE4521C6D3ADFF152E /* Pods-Fiserv_QR_SDK_Example-dummy.m */; };
 		568B4361F5D947D2EF475666C15F6140 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480F0C3558E6B85BD87424306CD7035C /* BlinkingLabel.swift */; };
+		5A0B50F92C5A841D00314837 /* BlinkingLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B50F82C5A841D00314837 /* BlinkingLabel+Extension.swift */; };
+		5A0B50FB2C5A856F00314837 /* report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B50FA2C5A856F00314837 /* report.swift */; };
 		5A7FD4D82C4ACADA0025626A /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD4D72C4ACADA0025626A /* TestService.swift */; };
 		5A7FD4DC2C4ACB310025626A /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD4DB2C4ACB310025626A /* GenericResponse.swift */; };
 		5A7FD4DF2C4ACCB90025626A /* TestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD4DE2C4ACCB90025626A /* TestRepository.swift */; };
@@ -126,6 +128,8 @@
 		4B2A39D139E6CE6AC741F3A7C453DBB3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4CCDDF5D0B308D2C75D2C002B91B25CD /* Pods-Fiserv_QR_SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fiserv_QR_SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		590F0AC9B7C20590DE94529AC2D40F4A /* Pods-Fiserv_QR_SDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fiserv_QR_SDK_Example-Info.plist"; sourceTree = "<group>"; };
+		5A0B50F82C5A841D00314837 /* BlinkingLabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BlinkingLabel+Extension.swift"; sourceTree = "<group>"; };
+		5A0B50FA2C5A856F00314837 /* report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = report.swift; sourceTree = "<group>"; };
 		5A7FD4D72C4ACADA0025626A /* TestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
 		5A7FD4DB2C4ACB310025626A /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
 		5A7FD4DE2C4ACCB90025626A /* TestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepository.swift; sourceTree = "<group>"; };
@@ -330,6 +334,7 @@
 				5A84837E2C45785F0037B8A6 /* Extensions */,
 				5A8483792C4574F20037B8A6 /* Environment */,
 				5A84836D2C4573620037B8A6 /* Networking */,
+				5A0B50FA2C5A856F00314837 /* report.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 			children = (
 				5A84836B2C4573340037B8A6 /* Application */,
 				480F0C3558E6B85BD87424306CD7035C /* BlinkingLabel.swift */,
+				5A0B50F82C5A841D00314837 /* BlinkingLabel+Extension.swift */,
 				849CD0F77713BE36DABECD83136F703B /* Pod */,
 				B40E07364A92B5B1A0B25F1A8869A158 /* Support Files */,
 			);
@@ -788,7 +794,9 @@
 				5A8483872C457B2D0037B8A6 /* Dictionary+DI_Extension.swift in Sources */,
 				5A8483702C45738D0037B8A6 /* IOError.swift in Sources */,
 				5A8483852C457ABE0037B8A6 /* DIFramework.swift in Sources */,
+				5A0B50FB2C5A856F00314837 /* report.swift in Sources */,
 				5A84838B2C4581E60037B8A6 /* Fiserv_QR_SDK.swift in Sources */,
+				5A0B50F92C5A841D00314837 /* BlinkingLabel+Extension.swift in Sources */,
 				1B0E9EA223066BD3D1082A65BDAB84BD /* Fiserv_QR_SDK-dummy.m in Sources */,
 				5A8483752C4573A10037B8A6 /* APIProtocol.swift in Sources */,
 				5A8483822C4578C20037B8A6 /* DateFormatter+Extension.swift in Sources */,

@@ -2,20 +2,17 @@
 
 public class BlinkingLabel: UILabel {
 
-    @SharedInstance(\.testRepositoryProvider) private var testRepository: TestService
-    
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
         super.init(coder: coder)
     }
     
     public func startBlinking() {
 
-        var options : UIViewAnimationOptions = .repeat
+        var options : UIView.AnimationOptions = .repeat
         
         options.insert( .autoreverse )
 
@@ -25,6 +22,7 @@ public class BlinkingLabel: UILabel {
 
             }, completion: nil)
 
+        self.getResponse()
     }
 
     public func stopBlinking() {
@@ -33,19 +31,11 @@ public class BlinkingLabel: UILabel {
 
         layer.removeAllAnimations()
 
-        Task {
-            do {
-                let response = try await testRepository.getData()
-                print("**** Data is: \(response.first)")
-            } catch {
-                print("There was an error: \(error)")
-            }
-        }
     }
 
 }
 
-extension Fiserv_QR_SDK {
+public final class Fiserv_QR_SDK {
     public static func configureAPIKey(_ apiKey: String) {
         self.setAPIKey(apiKey)
     }

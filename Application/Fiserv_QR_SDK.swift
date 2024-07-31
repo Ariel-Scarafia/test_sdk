@@ -7,7 +7,7 @@
 
 import Foundation
 
-public final class Fiserv_QR_SDK {
+extension Fiserv_QR_SDK {
     
     static private (set) var apiKey: String = ""
     
