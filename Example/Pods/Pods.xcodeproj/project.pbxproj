@@ -289,7 +289,6 @@
 		5A0B50FE2C5AA37100314837 /* SDK_Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5A0B51812C5AB2E900314837 /* Fiserv_QR_SDK_private.xcframework */,
 				480F0C3558E6B85BD87424306CD7035C /* BlinkingLabel.swift */,
 			);
 			path = SDK_Sources;
@@ -346,6 +345,7 @@
 		8B6ABD0E43505FFB358F418179D7A8E7 /* Fiserv_QR_SDK */ = {
 			isa = PBXGroup;
 			children = (
+				5A0B51812C5AB2E900314837 /* Fiserv_QR_SDK_private.xcframework */,
 				5A0B50FE2C5AA37100314837 /* SDK_Sources */,
 				849CD0F77713BE36DABECD83136F703B /* Pod */,
 				B40E07364A92B5B1A0B25F1A8869A158 /* Support Files */,
