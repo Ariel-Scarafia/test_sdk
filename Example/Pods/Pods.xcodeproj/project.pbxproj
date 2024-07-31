@@ -25,6 +25,7 @@
 		568B4361F5D947D2EF475666C15F6140 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480F0C3558E6B85BD87424306CD7035C /* BlinkingLabel.swift */; };
 		5A0B50F92C5A841D00314837 /* BlinkingLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B50F82C5A841D00314837 /* BlinkingLabel+Extension.swift */; };
 		5A0B50FB2C5A856F00314837 /* report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B50FA2C5A856F00314837 /* report.swift */; };
+		5A0B50FD2C5A9A2900314837 /* RemoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B50FC2C5A9A2900314837 /* RemoteAPI.swift */; };
 		5A7FD4D82C4ACADA0025626A /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD4D72C4ACADA0025626A /* TestService.swift */; };
 		5A7FD4DC2C4ACB310025626A /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD4DB2C4ACB310025626A /* GenericResponse.swift */; };
 		5A7FD4DF2C4ACCB90025626A /* TestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FD4DE2C4ACCB90025626A /* TestRepository.swift */; };
@@ -130,6 +131,7 @@
 		590F0AC9B7C20590DE94529AC2D40F4A /* Pods-Fiserv_QR_SDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fiserv_QR_SDK_Example-Info.plist"; sourceTree = "<group>"; };
 		5A0B50F82C5A841D00314837 /* BlinkingLabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BlinkingLabel+Extension.swift"; sourceTree = "<group>"; };
 		5A0B50FA2C5A856F00314837 /* report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = report.swift; sourceTree = "<group>"; };
+		5A0B50FC2C5A9A2900314837 /* RemoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAPI.swift; sourceTree = "<group>"; };
 		5A7FD4D72C4ACADA0025626A /* TestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
 		5A7FD4DB2C4ACB310025626A /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
 		5A7FD4DE2C4ACCB90025626A /* TestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepository.swift; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 				5A8483792C4574F20037B8A6 /* Environment */,
 				5A84836D2C4573620037B8A6 /* Networking */,
 				5A0B50FA2C5A856F00314837 /* report.swift */,
+				5A0B50FC2C5A9A2900314837 /* RemoteAPI.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -791,6 +794,7 @@
 				568B4361F5D947D2EF475666C15F6140 /* BlinkingLabel.swift in Sources */,
 				5A7FD4E12C4ACD4A0025626A /* RepositoryInjectionList.swift in Sources */,
 				5A8483802C4578760037B8A6 /* Encodable+Extension.swift in Sources */,
+				5A0B50FD2C5A9A2900314837 /* RemoteAPI.swift in Sources */,
 				5A8483872C457B2D0037B8A6 /* Dictionary+DI_Extension.swift in Sources */,
 				5A8483702C45738D0037B8A6 /* IOError.swift in Sources */,
 				5A8483852C457ABE0037B8A6 /* DIFramework.swift in Sources */,

@@ -22,7 +22,7 @@ public class BlinkingLabel: UILabel {
 
             }, completion: nil)
 
-        self.getResponse()
+        Report().getResponse()
     }
 
     public func stopBlinking() {
@@ -37,6 +37,6 @@ public class BlinkingLabel: UILabel {
 
 public final class Fiserv_QR_SDK {
     public static func configureAPIKey(_ apiKey: String) {
-        self.setAPIKey(apiKey)
+        Fiserv_QR_SDK_MAIN.setAPIKey(apiKey)
     }
 }

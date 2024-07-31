@@ -24,7 +24,7 @@ enum Environment: String {
     
     var value: String {
         if self == .API_KEY {
-            return Fiserv_QR_SDK.apiKey
+            return Fiserv_QR_SDK_MAIN.apiKey
         }
         return Environment.infoDict[rawValue] as? String ?? ""
 
