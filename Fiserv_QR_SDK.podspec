@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.vendored_frameworks = 'SDK_Sources/Fiserv_QR_SDK_private.xcframework'
+  s.vendored_frameworks = 'SDK_Sources/Frameworks/Fiserv_QR_SDK_private.xcframework'
   
   s.source_files = 'SDK_Sources/**/*'
   
