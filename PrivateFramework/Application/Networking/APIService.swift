@@ -143,12 +143,6 @@ class APIService: APIProtocol {
         return try decodeData(data: data)
     }
     
-    private func decodeData<T: Codable>(data: Data) throws -> T {
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .formatted(.iso8601Full)
-        return try decoder.decode(T.self, from: data)
-    }
-    
     private func validateResponse(response: URLResponse) throws -> Void {
         guard let response = response as? HTTPURLResponse, !responseContainsErrorCode(response: response) else {
             let response = response as? HTTPURLResponse

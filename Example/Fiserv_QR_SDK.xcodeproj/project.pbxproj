@@ -25,6 +25,12 @@
 		5A0B516D2C5AA75500314837 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515B2C5AA75500314837 /* DateFormatter+Extension.swift */; };
 		5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK.swift */; };
 		5A0B516F2C5AA75500314837 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515E2C5AA75500314837 /* Enviroment.swift */; };
+		5A0B51892C5C06C400314837 /* PaymentMethodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51882C5C06C400314837 /* PaymentMethodScreen.swift */; };
+		5A0B518D2C5D13FA00314837 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B518C2C5D13FA00314837 /* PaymentMethod.swift */; };
+		5A0B518F2C5D169D00314837 /* PaymentMethodCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B518E2C5D169D00314837 /* PaymentMethodCarousel.swift */; };
+		5A0B51912C5D170E00314837 /* PaymentMethodCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */; };
+		5A0B51932C5D189400314837 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51922C5D189400314837 /* PaymentMethodOption.swift */; };
+		5A0B519B2C5D3A8C00314837 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -66,6 +72,12 @@
 		5A0B515B2C5AA75500314837 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 		5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fiserv_QR_SDK.swift; sourceTree = "<group>"; };
 		5A0B515E2C5AA75500314837 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		5A0B51882C5C06C400314837 /* PaymentMethodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodScreen.swift; sourceTree = "<group>"; };
+		5A0B518C2C5D13FA00314837 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		5A0B518E2C5D169D00314837 /* PaymentMethodCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCarousel.swift; sourceTree = "<group>"; };
+		5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCarouselCell.swift; sourceTree = "<group>"; };
+		5A0B51922C5D189400314837 /* PaymentMethodOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodOption.swift; sourceTree = "<group>"; };
+		5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Fiserv_QR_SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiserv_QR_SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +131,9 @@
 		5A0B51222C5AA66E00314837 /* Fiserv_QR_SDK_private */ = {
 			isa = PBXGroup;
 			children = (
+				5A0B51942C5D2B0600314837 /* Resources */,
+				5A0B518B2C5D11B500314837 /* Model */,
+				5A0B51852C5C067100314837 /* Presentation */,
 				5A0B51452C5AA75500314837 /* Application */,
 				5A0B51232C5AA66E00314837 /* Fiserv_QR_SDK_private.h */,
 				5A0B51242C5AA66E00314837 /* Fiserv_QR_SDK_private.docc */,
@@ -130,12 +145,13 @@
 			isa = PBXGroup;
 			children = (
 				5A0B51462C5AA75500314837 /* report.swift */,
+				5A0B515D2C5AA75500314837 /* Environment */,
 				5A0B51482C5AA75500314837 /* DIFramework */,
 				5A0B514D2C5AA75500314837 /* Repository */,
 				5A0B514F2C5AA75500314837 /* Networking */,
 				5A0B51592C5AA75500314837 /* Extensions */,
 				5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK.swift */,
-				5A0B515D2C5AA75500314837 /* Environment */,
+				5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */,
 			);
 			name = Application;
 			path = ../../PrivateFramework/Application;
@@ -212,6 +228,56 @@
 				5A0B515E2C5AA75500314837 /* Enviroment.swift */,
 			);
 			path = Environment;
+			sourceTree = "<group>";
+		};
+		5A0B51852C5C067100314837 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B51872C5C069F00314837 /* PaymentMethod */,
+				5A0B51862C5C067D00314837 /* QRScanner */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5A0B51862C5C067D00314837 /* QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QRScanner;
+			sourceTree = "<group>";
+		};
+		5A0B51872C5C069F00314837 /* PaymentMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B518A2C5C06CB00314837 /* Views */,
+				5A0B51882C5C06C400314837 /* PaymentMethodScreen.swift */,
+			);
+			path = PaymentMethod;
+			sourceTree = "<group>";
+		};
+		5A0B518A2C5C06CB00314837 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B518E2C5D169D00314837 /* PaymentMethodCarousel.swift */,
+				5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0B518B2C5D11B500314837 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B518C2C5D13FA00314837 /* PaymentMethod.swift */,
+				5A0B51922C5D189400314837 /* PaymentMethodOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A0B51942C5D2B0600314837 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -510,6 +576,7 @@
 				5A0B51692C5AA75500314837 /* GenericResponse.swift in Sources */,
 				5A0B51642C5AA75500314837 /* UIViewController+DI_Extension.swift in Sources */,
 				5A0B516D2C5AA75500314837 /* DateFormatter+Extension.swift in Sources */,
+				5A0B519B2C5D3A8C00314837 /* JsonDecoder.swift in Sources */,
 				5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK.swift in Sources */,
 				5A0B51252C5AA66E00314837 /* Fiserv_QR_SDK_private.docc in Sources */,
 				5A0B51682C5AA75500314837 /* APIEndpoints.swift in Sources */,
@@ -518,12 +585,17 @@
 				5A0B51632C5AA75500314837 /* DIFramework.swift in Sources */,
 				5A0B516C2C5AA75500314837 /* Encodable+Extension.swift in Sources */,
 				5A0B516A2C5AA75500314837 /* IOError.swift in Sources */,
+				5A0B518F2C5D169D00314837 /* PaymentMethodCarousel.swift in Sources */,
 				5A0B51672C5AA75500314837 /* APIService.swift in Sources */,
 				5A0B51622C5AA75500314837 /* Dictionary+DI_Extension.swift in Sources */,
+				5A0B51912C5D170E00314837 /* PaymentMethodCarouselCell.swift in Sources */,
 				5A0B516F2C5AA75500314837 /* Enviroment.swift in Sources */,
 				5A0B516B2C5AA75500314837 /* TestService.swift in Sources */,
 				5A0B51612C5AA75500314837 /* RepositoryInjectionList.swift in Sources */,
 				5A0B51652C5AA75500314837 /* TestRepository.swift in Sources */,
+				5A0B518D2C5D13FA00314837 /* PaymentMethod.swift in Sources */,
+				5A0B51932C5D189400314837 /* PaymentMethodOption.swift in Sources */,
+				5A0B51892C5C06C400314837 /* PaymentMethodScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,7 +673,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
@@ -647,7 +719,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
@@ -770,7 +842,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fiserv_QR_SDK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -786,7 +858,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fiserv_QR_SDK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
