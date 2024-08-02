@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.vendored_frameworks = 'SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework'
   
-  s.source_files = 'SDK_Sources/**/*'
+  s.source_files = 'SDK_Sources/Interface/**/*'
   
   # s.resource_bundles = {
   #   'Fiserv_QR_SDK' => ['Fiserv_QR_SDK/Assets/*.png']
