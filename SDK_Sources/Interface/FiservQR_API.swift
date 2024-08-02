@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 import Fiserv_QR_SDK_private
 
 public final class FiservQR_API {
@@ -14,7 +15,7 @@ public final class FiservQR_API {
         Fiserv_QR_SDK_MAIN.setPaymentOptions(paymentOptions)
     }
     
-    static public func getPaymentCarousel() -> Any View {
+    static public func getPaymentCarousel() -> any View {
         Fiserv_QR_SDK_MAIN.getPaymentView()
     }
 }
