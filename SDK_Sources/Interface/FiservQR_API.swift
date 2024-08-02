@@ -15,7 +15,7 @@ public final class FiservQR_API {
         Fiserv_QR_SDK_MAIN.setPaymentOptions(paymentOptions)
     }
     
-    static public func getPaymentCarousel() -> any View {
+    static public func getPaymentCarousel() -> some View {
         Fiserv_QR_SDK_MAIN.getPaymentView()
     }
 }

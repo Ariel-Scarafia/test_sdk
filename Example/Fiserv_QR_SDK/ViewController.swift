@@ -8,6 +8,7 @@
 
 import UIKit
 import Fiserv_QR_SDK
+import SwiftUI
 
 class ViewController: UIViewController {
 
@@ -43,6 +44,14 @@ class ViewController: UIViewController {
 
         view.addSubview(toggleButton)
 
+        let carouselView = FiservQR_API.getPaymentCarousel()
+        let carouselViewCtrl = UIHostingController(rootView: carouselView)
+        addChildViewController(carouselViewCtrl)
+        carouselViewCtrl.view.frame = self.view.bounds
+        view.addSubview(carouselViewCtrl.view)
+        carouselViewCtrl.didMove(toParent: self)
+        
+        
     }
 
     @objc func toggleBlinking() {

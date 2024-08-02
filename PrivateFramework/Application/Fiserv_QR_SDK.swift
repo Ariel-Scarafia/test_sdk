@@ -31,7 +31,7 @@ public class Fiserv_QR_SDK_MAIN {
         self.paymentOptions = decoded
     }
     
-    static public func getPaymentView() -> any View {
+    static public func getPaymentView() -> some View {
         PaymentMethodCarousel(paymentMethods: paymentOptions)
     }
 }
