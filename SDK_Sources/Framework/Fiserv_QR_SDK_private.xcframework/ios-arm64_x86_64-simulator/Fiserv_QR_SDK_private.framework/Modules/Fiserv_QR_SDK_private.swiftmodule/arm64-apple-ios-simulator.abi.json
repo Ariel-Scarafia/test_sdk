@@ -159,14 +159,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "View",
-                "printedName": "SwiftUI.View",
-                "usr": "s:7SwiftUI4ViewP"
+                "name": "PaymentMethodCarousel",
+                "printedName": "Fiserv_QR_SDK_private.PaymentMethodCarousel",
+                "usr": "s:21Fiserv_QR_SDK_private21PaymentMethodCarouselV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:21Fiserv_QR_SDK_private0a1_b1_C5_MAINC14getPaymentView7SwiftUI0H0_pyFZ",
-            "mangledName": "$s21Fiserv_QR_SDK_private0a1_b1_C5_MAINC14getPaymentView7SwiftUI0H0_pyFZ",
+            "usr": "s:21Fiserv_QR_SDK_private0a1_b1_C5_MAINC14getPaymentViewQryFZ",
+            "mangledName": "$s21Fiserv_QR_SDK_private0a1_b1_C5_MAINC14getPaymentViewQryFZ",
             "moduleName": "Fiserv_QR_SDK_private",
             "static": true,
             "declAttributes": [

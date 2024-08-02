@@ -14,7 +14,8 @@ import _SwiftConcurrencyShims
   public static func getAPIKey() -> Swift.String
   public static func setAPIKey(_ apiKey: Swift.String)
   public static func setPaymentOptions(_ paymentOptions: Swift.String)
-  public static func getPaymentView() -> any SwiftUI.View
+  public static func getPaymentView() -> some SwiftUI.View
+  
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Report {
