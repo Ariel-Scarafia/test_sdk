@@ -8,10 +8,10 @@
 
 import Foundation
 
-class PaymentMethodOption: Codable, Identifiable {
-    var id: Int
-    var cardName: String = ""
-    var cardHolder: String = ""
+public final class PaymentMethodOption: Codable, Identifiable {
+    public var id: Int
+    public var cardName: String = ""
+    public var cardHolder: String = ""
     var active: Bool = false
     var typePaymentMethodId: Int = 0
     var numberCard: Int = 0
@@ -21,7 +21,7 @@ class PaymentMethodOption: Codable, Identifiable {
     var expirationDate: String = ""
     var currentEmail: String = ""
         
-    init(id: Int, cardName: String, cardHolder: String) {
+    public init(id: Int, cardName: String, cardHolder: String) {
         self.id = id
         self.cardName = cardName
         self.cardHolder = cardHolder

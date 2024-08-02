@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct CreatePaymentRequest: Codable {
+public struct CreatePaymentRequest: Codable {
     var idUsuario = UserDefaults.standard.integer(forKey: "userID") 
     var cuotas = "12"
     var cvu: String = "000000505050505050421043"
