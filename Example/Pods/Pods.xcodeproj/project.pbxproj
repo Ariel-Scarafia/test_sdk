@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,10 @@
 		304167D701707C589D6590ED64FFF1C3 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */; };
 		46862AB80D76D49CAD48B1957764A4CC /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */; };
 		4EB4192713945D9A14599282B5E6D11A /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */; };
-		5A0B51982C5D361600314837 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51962C5D361600314837 /* PaymentMethod.swift */; };
-		5A0B51992C5D361600314837 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51972C5D361600314837 /* PaymentMethodOption.swift */; };
-		5A0B519D2C5D3EF500314837 /* FiservQR_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B519C2C5D3EF500314837 /* FiservQR_API.swift */; };
+		5A0B519F2C5D429A00314837 /* FiservQR_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B519E2C5D429A00314837 /* FiservQR_API.swift */; };
+		5A0B51A12C5D42E400314837 /* Fiserv_QR_SDK_private.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B51A02C5D42E400314837 /* Fiserv_QR_SDK_private.xcframework */; };
+		5A0B51A42C5D432C00314837 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51A22C5D432C00314837 /* PaymentMethodOption.swift */; };
+		5A0B51A52C5D432C00314837 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51A32C5D432C00314837 /* PaymentMethod.swift */; };
 		6407A07569B69CDF65FF93F24ABA7B4A /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 819B6ED50300FFC9199A7CAABC3D4264 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		69574212523C2707BA454A34BE87F02B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */; };
 		6CA8AB606EE9B36F041C77DCA1BB6F98 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */; };
@@ -86,12 +87,12 @@
 		1F90C8BD19F12E18DE5E85F6705727D3 /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
 		1FD039C70361519E06EFFD0948D9C00A /* Pods-Fiserv_QR_SDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fiserv_QR_SDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		26B127571F85570C9A66505C9ACC3A6C /* Fiserv_QR_SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fiserv_QR_SDK.modulemap; sourceTree = "<group>"; };
-		27A9E4DBDC180A7698521DB457D11D96 /* Fiserv_QR_SDK_private.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = Fiserv_QR_SDK_private.xcframework; sourceTree = "<group>"; };
 		2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		3226CF3D99F85FB3546620482C195A9E /* BarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
-		5A0B51962C5D361600314837 /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Example/Fiserv_QR_SDK_private/Model/PaymentMethod.swift; sourceTree = "<group>"; };
-		5A0B51972C5D361600314837 /* PaymentMethodOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentMethodOption.swift; path = Example/Fiserv_QR_SDK_private/Model/PaymentMethodOption.swift; sourceTree = "<group>"; };
-		5A0B519C2C5D3EF500314837 /* FiservQR_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiservQR_API.swift; sourceTree = "<group>"; };
+		5A0B519E2C5D429A00314837 /* FiservQR_API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FiservQR_API.swift; path = SDK_Sources/FiservQR_API.swift; sourceTree = "<group>"; };
+		5A0B51A02C5D42E400314837 /* Fiserv_QR_SDK_private.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Fiserv_QR_SDK_private.xcframework; path = SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework; sourceTree = "<group>"; };
+		5A0B51A22C5D432C00314837 /* PaymentMethodOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentMethodOption.swift; path = SDK_Sources/Model/PaymentMethodOption.swift; sourceTree = "<group>"; };
+		5A0B51A32C5D432C00314837 /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = SDK_Sources/Model/PaymentMethod.swift; sourceTree = "<group>"; };
 		5CE3CAC6E6F8522ACC54B0ECC64F2BB7 /* Fiserv_QR_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fiserv_QR_SDK.debug.xcconfig; sourceTree = "<group>"; };
 		5DA21BBF0E95817DACAD6BA3670AF505 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
 		5DB3D82A12C62C9F991C7720F3C54012 /* Fiserv_QR_SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Fiserv_QR_SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -143,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0B51A12C5D42E400314837 /* Fiserv_QR_SDK_private.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +241,8 @@
 		5A0B51952C5D35FE00314837 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5A0B51962C5D361600314837 /* PaymentMethod.swift */,
-				5A0B51972C5D361600314837 /* PaymentMethodOption.swift */,
+				5A0B51A32C5D432C00314837 /* PaymentMethod.swift */,
+				5A0B51A22C5D432C00314837 /* PaymentMethodOption.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -263,7 +265,7 @@
 		7E6222ADB631206D261A7FFFC5C8BEC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27A9E4DBDC180A7698521DB457D11D96 /* Fiserv_QR_SDK_private.xcframework */,
+				5A0B51A02C5D42E400314837 /* Fiserv_QR_SDK_private.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -321,7 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				F50EAAE7251CD75A66C75FE2A8CEE3F2 /* BlinkingLabel.swift */,
-				5A0B519C2C5D3EF500314837 /* FiservQR_API.swift */,
+				5A0B519E2C5D429A00314837 /* FiservQR_API.swift */,
 				7E6222ADB631206D261A7FFFC5C8BEC4 /* Frameworks */,
 				5A0B51952C5D35FE00314837 /* Model */,
 				0C3FECBFBB1C73E509F418244C90FC12 /* Pod */,
@@ -609,11 +611,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0B51992C5D361600314837 /* PaymentMethodOption.swift in Sources */,
-				5A0B519D2C5D3EF500314837 /* FiservQR_API.swift in Sources */,
-				5A0B51982C5D361600314837 /* PaymentMethod.swift in Sources */,
+				5A0B51A42C5D432C00314837 /* PaymentMethodOption.swift in Sources */,
+				5A0B519F2C5D429A00314837 /* FiservQR_API.swift in Sources */,
 				80D684038EDB9891C23D5B9D06888601 /* BlinkingLabel.swift in Sources */,
 				8E79F5C9153B6ECD68B864180AE6FCD7 /* Fiserv_QR_SDK-dummy.m in Sources */,
+				5A0B51A52C5D432C00314837 /* PaymentMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,7 +876,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
