@@ -31,7 +31,7 @@ Fiserv_QR_SDK is available under the MIT license. See the LICENSE file for more 
 
 How to compile framework:
 
-Open terminal inside project dir.
+Open terminal inside project dir. (in this case, it would be inside the /Example dir)
 Type: 
 ```
 xcodebuild archive \

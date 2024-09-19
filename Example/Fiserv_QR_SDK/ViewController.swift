@@ -15,11 +15,14 @@ class ViewController: UIViewController {
     var isBlinking = false
 
     let blinkingLabel = BlinkingLabel(frame: CGRectMake(50, 100, 200, 30))
+    
+    let squareButton = UIButton(frame: CGRect(x: 100, y: 200, width: 142, height: 134))
 
     override func viewDidLoad() {
 
         super.viewDidLoad()
 
+        print("View did load: SDK Example")
         // Setup the BlinkingLabel
 
         blinkingLabel.text = "I blink!"
@@ -44,13 +47,19 @@ class ViewController: UIViewController {
 
         view.addSubview(toggleButton)
 
-        let carouselView = FiservQR_API.getPaymentCarousel()
-        let carouselViewCtrl = UIHostingController(rootView: carouselView)
-        addChildViewController(carouselViewCtrl)
-        carouselViewCtrl.view.frame = self.view.bounds
-        view.addSubview(carouselViewCtrl.view)
-        carouselViewCtrl.didMove(toParent: self)
+        squareButton.setTitle("Presione para la cámara", for: .normal)
+        squareButton.setTitleColor(.black, for: .normal)
+        squareButton.setImage(UIImage(named: "give_us_a_few_seconds"), for: .normal)
+        squareButton.addTarget(self, action: #selector(self.requestCamera), for: .touchUpInside)
         
+        view.addSubview(squareButton)
+        
+//        let carouselView = FiservQR_API.getPaymentCarousel()
+//        let carouselViewCtrl = UIHostingController(rootView: carouselView)
+//        addChildViewController(carouselViewCtrl)
+//        carouselViewCtrl.view.frame = self.view.bounds
+//        view.addSubview(carouselViewCtrl.view)
+//        carouselViewCtrl.didMove(toParent: self)
         
     }
 
@@ -64,6 +73,14 @@ class ViewController: UIViewController {
         isBlinking = !isBlinking
     }
 
+    @objc func requestCamera() {
+        print("Pidió la cámara loco")
+        
+        Task {
+            let hasPermission = await FiservQR_API.hasCameraPermission()
+            print("Camera permission: \(hasPermission)")
+        }
+    }
 }
 
 

@@ -17,8 +17,8 @@
   "platforms": {
     "ios": "13.0"
   },
-  "vendored_frameworks": "Fiserv_QR_SDK_private.xcframework",
-  "source_files": "SDK_Sources/**/*",
+  "vendored_frameworks": "SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework",
+  "source_files": "SDK_Sources/Interface/**/*",
   "dependencies": {
     "BarcodeScanner": [
       "4.1.3"

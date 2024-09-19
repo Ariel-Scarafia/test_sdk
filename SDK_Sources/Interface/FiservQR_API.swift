@@ -18,4 +18,8 @@ public final class FiservQR_API {
     static public func getPaymentCarousel() -> some View {
         Fiserv_QR_SDK_MAIN.getPaymentView()
     }
+    
+    static public func hasCameraPermission() async -> Bool {
+        await Fiserv_QR_SDK_MAIN.hasCameraPermission()
+    }
 }
