@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Pyo0uSjr4v5T8QnlhWGBJypV7cs=
+		5Ux02qBHcGXLggYA1CaOux4SEZQ=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bwOrFM+68tD58wgoM22cKLqJQpw=
+		jXwmXDWfQgPlbmBzUKOzoxcGEtQ=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Agb5qt7paUlKQ8wohkNdPTfOJeA=
+		AjrykAXW236l0Vbc5GKlFtFjAnY=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Agb5qt7paUlKQ8wohkNdPTfOJeA=
+		AjrykAXW236l0Vbc5GKlFtFjAnY=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gFrGqgkFvdLnd7S8ZRMDAjGkqSY=
+		p+v/yY4GRX1CdrvZJhPm90R4kJc=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bwOrFM+68tD58wgoM22cKLqJQpw=
+		jXwmXDWfQgPlbmBzUKOzoxcGEtQ=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		waYi8YgmfNqSTlXaA6wB65os0PI=
+		OQ6U7e7LKXYsTL+NUiiT/BJlyHk=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		waYi8YgmfNqSTlXaA6wB65os0PI=
+		OQ6U7e7LKXYsTL+NUiiT/BJlyHk=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ST+xQNACoFm0zur3txBgb66wSKE=
+		w2L8Ct45L+2bqrGYuVr+l+SUbdQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UQvUn4ew0/R/GhlgDSGTmNuLx4S7SWeXwyiId0Pm7fU=
+			2HUsh5ks1hW2w14g79/zj3KatgP0DUtM/2AWjnTdtY4=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/y2Mr3bxZzQGa1xYfmok6qB37H2FZVWMGKXwUBkjFA=
+			p6ob4I/bBuDDxsiUZsC3okdth7p0bkrx41nhffZxyHA=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/y2Mr3bxZzQGa1xYfmok6qB37H2FZVWMGKXwUBkjFA=
+			p6ob4I/bBuDDxsiUZsC3okdth7p0bkrx41nhffZxyHA=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1z5wVDCYu2uqJ++oFmtqF6RMQaNAM1oI1+sGDPTotFs=
+			gABS2Ahb7hRDA/g3KVOVsJ3vg/WCjLxMXgfl/CBhHjM=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UQvUn4ew0/R/GhlgDSGTmNuLx4S7SWeXwyiId0Pm7fU=
+			2HUsh5ks1hW2w14g79/zj3KatgP0DUtM/2AWjnTdtY4=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuLHCcPFW+cEeRmvVvFPhzqo12J4yBWu1oFvH2EXzYo=
+			bKRDTmqMGEj4B9Wfo5NU5Ewd78neoKtPB9634bngEdg=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuLHCcPFW+cEeRmvVvFPhzqo12J4yBWu1oFvH2EXzYo=
+			bKRDTmqMGEj4B9Wfo5NU5Ewd78neoKtPB9634bngEdg=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SnyogiCIuoc+EubXGXJNp9QYliWySca5mDsZ1iF/L7k=
+			WxxXQcYSXOHiuK2uxnwXDlNn5nv7qasYQ4/UXig45Zo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -16,10 +16,12 @@ struct CreatePaymentRequest: Codable {
     var idMedioPago: Int = 0
     var idPaymentRequest: Int = 0
     var idTipoMedioPago: Int = 0
+    var currency: String = "$"
     var montoIngresable: String = "250000"
     var namePaymentMethod: String = "Tarjeta"
     var qr: String = ""
     var servicio: String = "Luz"
     var uuid = "UUID"
     var cardNumber: Int?
+    var paymentOptions: [PaymentMethodOption]?
 }

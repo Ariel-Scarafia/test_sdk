@@ -23,7 +23,7 @@
 		5A0B516B2C5AA75500314837 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51582C5AA75500314837 /* TestService.swift */; };
 		5A0B516C2C5AA75500314837 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515A2C5AA75500314837 /* Encodable+Extension.swift */; };
 		5A0B516D2C5AA75500314837 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515B2C5AA75500314837 /* DateFormatter+Extension.swift */; };
-		5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK.swift */; };
+		5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK_MAIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK_MAIN.swift */; };
 		5A0B516F2C5AA75500314837 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B515E2C5AA75500314837 /* Enviroment.swift */; };
 		5A0B51892C5C06C400314837 /* PaymentMethodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51882C5C06C400314837 /* PaymentMethodScreen.swift */; };
 		5A0B518D2C5D13FA00314837 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B518C2C5D13FA00314837 /* PaymentMethod.swift */; };
@@ -31,6 +31,16 @@
 		5A0B51912C5D170E00314837 /* PaymentMethodCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */; };
 		5A0B51932C5D189400314837 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51922C5D189400314837 /* PaymentMethodOption.swift */; };
 		5A0B519B2C5D3A8C00314837 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */; };
+		5A469D7A2CA3304200D515A9 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D792CA3304200D515A9 /* LocalizableStrings.swift */; };
+		5A469D7C2CA330BB00D515A9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5A469D7B2CA330BB00D515A9 /* Localizable.xcstrings */; };
+		5A469D7F2CA3325700D515A9 /* LocalizableStrings+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D7E2CA3325700D515A9 /* LocalizableStrings+Extension.swift */; };
+		5A469D812CA332EA00D515A9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D802CA332EA00D515A9 /* String+Extensions.swift */; };
+		5A469D832CA3334500D515A9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D822CA3334500D515A9 /* UIColor+Extension.swift */; };
+		5A469D852CA3397700D515A9 /* ColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D842CA3397700D515A9 /* ColorSettings.swift */; };
+		5A469D872CA33AB400D515A9 /* FontSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D862CA33AB400D515A9 /* FontSettings.swift */; };
+		5A469D8B2CA33B1800D515A9 /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A469D892CA33B1800D515A9 /* Montserrat.ttf */; };
+		5A469D8C2CA33B1800D515A9 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A469D8A2CA33B1800D515A9 /* OpenSans.ttf */; };
+		5A9016092C9C90E400F54259 /* RequiresCameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9016082C9C90E400F54259 /* RequiresCameraPermission.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -70,7 +80,7 @@
 		5A0B51582C5AA75500314837 /* TestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
 		5A0B515A2C5AA75500314837 /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
 		5A0B515B2C5AA75500314837 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
-		5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fiserv_QR_SDK.swift; sourceTree = "<group>"; };
+		5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK_MAIN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fiserv_QR_SDK_MAIN.swift; sourceTree = "<group>"; };
 		5A0B515E2C5AA75500314837 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 		5A0B51882C5C06C400314837 /* PaymentMethodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodScreen.swift; sourceTree = "<group>"; };
 		5A0B518C2C5D13FA00314837 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
@@ -78,6 +88,17 @@
 		5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCarouselCell.swift; sourceTree = "<group>"; };
 		5A0B51922C5D189400314837 /* PaymentMethodOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodOption.swift; sourceTree = "<group>"; };
 		5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		5A469D792CA3304200D515A9 /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		5A469D7B2CA330BB00D515A9 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		5A469D7E2CA3325700D515A9 /* LocalizableStrings+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocalizableStrings+Extension.swift"; sourceTree = "<group>"; };
+		5A469D802CA332EA00D515A9 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		5A469D822CA3334500D515A9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5A469D842CA3397700D515A9 /* ColorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettings.swift; sourceTree = "<group>"; };
+		5A469D862CA33AB400D515A9 /* FontSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSettings.swift; sourceTree = "<group>"; };
+		5A469D892CA33B1800D515A9 /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
+		5A469D8A2CA33B1800D515A9 /* OpenSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans.ttf; sourceTree = "<group>"; };
+		5A469D8D2CA3493B00D515A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A9016082C9C90E400F54259 /* RequiresCameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiresCameraPermission.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Fiserv_QR_SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiserv_QR_SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +109,7 @@
 		607FACE51AFB9204008FA782 /* Fiserv_QR_SDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fiserv_QR_SDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61A1D03325AAD9A4DEE6FAB9 /* Fiserv_QR_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fiserv_QR_SDK.podspec; path = ../Fiserv_QR_SDK.podspec; sourceTree = "<group>"; };
+		61A1D03325AAD9A4DEE6FAB9 /* Fiserv_QR_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fiserv_QR_SDK.podspec; path = ../Fiserv_QR_SDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BB7D4E069EA7D27D10A91F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F74A6B529723ACFA6D9ADA3 /* Pods-Fiserv_QR_SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiserv_QR_SDK_Example.release.xcconfig"; path = "Target Support Files/Pods-Fiserv_QR_SDK_Example/Pods-Fiserv_QR_SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7CBB82BE92B5AE1694E538B /* Pods-Fiserv_QR_SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiserv_QR_SDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-Fiserv_QR_SDK_Example/Pods-Fiserv_QR_SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +152,7 @@
 		5A0B51222C5AA66E00314837 /* Fiserv_QR_SDK_private */ = {
 			isa = PBXGroup;
 			children = (
+				5A469D8D2CA3493B00D515A9 /* README.md */,
 				5A0B51942C5D2B0600314837 /* Resources */,
 				5A0B518B2C5D11B500314837 /* Model */,
 				5A0B51852C5C067100314837 /* Presentation */,
@@ -150,7 +172,7 @@
 				5A0B514D2C5AA75500314837 /* Repository */,
 				5A0B514F2C5AA75500314837 /* Networking */,
 				5A0B51592C5AA75500314837 /* Extensions */,
-				5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK.swift */,
+				5A0B515C2C5AA75500314837 /* Fiserv_QR_SDK_MAIN.swift */,
 				5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */,
 			);
 			name = Application;
@@ -216,6 +238,8 @@
 		5A0B51592C5AA75500314837 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5A469D822CA3334500D515A9 /* UIColor+Extension.swift */,
+				5A469D802CA332EA00D515A9 /* String+Extensions.swift */,
 				5A0B515A2C5AA75500314837 /* Encodable+Extension.swift */,
 				5A0B515B2C5AA75500314837 /* DateFormatter+Extension.swift */,
 			);
@@ -242,6 +266,7 @@
 		5A0B51862C5C067D00314837 /* QRScanner */ = {
 			isa = PBXGroup;
 			children = (
+				5A9016082C9C90E400F54259 /* RequiresCameraPermission.swift */,
 			);
 			path = QRScanner;
 			sourceTree = "<group>";
@@ -276,8 +301,31 @@
 		5A0B51942C5D2B0600314837 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A469D882CA33B1800D515A9 /* Fonts */,
+				5A469D7D2CA3325700D515A9 /* Extensions */,
+				5A469D7B2CA330BB00D515A9 /* Localizable.xcstrings */,
+				5A469D792CA3304200D515A9 /* LocalizableStrings.swift */,
+				5A469D842CA3397700D515A9 /* ColorSettings.swift */,
+				5A469D862CA33AB400D515A9 /* FontSettings.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A469D7D2CA3325700D515A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A469D7E2CA3325700D515A9 /* LocalizableStrings+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A469D882CA33B1800D515A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5A469D892CA33B1800D515A9 /* Montserrat.ttf */,
+				5A469D8A2CA33B1800D515A9 /* OpenSans.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -485,6 +533,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A469D7C2CA330BB00D515A9 /* Localizable.xcstrings in Resources */,
+				5A469D8B2CA33B1800D515A9 /* Montserrat.ttf in Resources */,
+				5A469D8C2CA33B1800D515A9 /* OpenSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,21 +630,28 @@
 				5A0B51642C5AA75500314837 /* UIViewController+DI_Extension.swift in Sources */,
 				5A0B516D2C5AA75500314837 /* DateFormatter+Extension.swift in Sources */,
 				5A0B519B2C5D3A8C00314837 /* JsonDecoder.swift in Sources */,
-				5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK.swift in Sources */,
+				5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK_MAIN.swift in Sources */,
 				5A0B51252C5AA66E00314837 /* Fiserv_QR_SDK_private.docc in Sources */,
 				5A0B51682C5AA75500314837 /* APIEndpoints.swift in Sources */,
+				5A469D832CA3334500D515A9 /* UIColor+Extension.swift in Sources */,
 				5A0B515F2C5AA75500314837 /* report.swift in Sources */,
 				5A0B51662C5AA75500314837 /* APIProtocol.swift in Sources */,
+				5A469D7F2CA3325700D515A9 /* LocalizableStrings+Extension.swift in Sources */,
 				5A0B51632C5AA75500314837 /* DIFramework.swift in Sources */,
 				5A0B516C2C5AA75500314837 /* Encodable+Extension.swift in Sources */,
+				5A9016092C9C90E400F54259 /* RequiresCameraPermission.swift in Sources */,
+				5A469D812CA332EA00D515A9 /* String+Extensions.swift in Sources */,
 				5A0B516A2C5AA75500314837 /* IOError.swift in Sources */,
 				5A0B518F2C5D169D00314837 /* PaymentMethodCarousel.swift in Sources */,
 				5A0B51672C5AA75500314837 /* APIService.swift in Sources */,
 				5A0B51622C5AA75500314837 /* Dictionary+DI_Extension.swift in Sources */,
 				5A0B51912C5D170E00314837 /* PaymentMethodCarouselCell.swift in Sources */,
+				5A469D7A2CA3304200D515A9 /* LocalizableStrings.swift in Sources */,
 				5A0B516F2C5AA75500314837 /* Enviroment.swift in Sources */,
+				5A469D852CA3397700D515A9 /* ColorSettings.swift in Sources */,
 				5A0B516B2C5AA75500314837 /* TestService.swift in Sources */,
 				5A0B51612C5AA75500314837 /* RepositoryInjectionList.swift in Sources */,
+				5A469D872CA33AB400D515A9 /* FontSettings.swift in Sources */,
 				5A0B51652C5AA75500314837 /* TestRepository.swift in Sources */,
 				5A0B518D2C5D13FA00314837 /* PaymentMethod.swift in Sources */,
 				5A0B51932C5D189400314837 /* PaymentMethodOption.swift in Sources */,
@@ -675,7 +733,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
@@ -721,7 +779,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 CocoaPods. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
@@ -784,7 +842,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -830,7 +888,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -845,7 +903,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 689X8379S5;
 				INFOPLIST_FILE = Fiserv_QR_SDK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -862,7 +920,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 689X8379S5;
 				INFOPLIST_FILE = Fiserv_QR_SDK/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -885,7 +943,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -904,7 +962,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

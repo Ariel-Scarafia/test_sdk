@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w38q6J9ATHY3VQUAGJk+u81I948=
+		JQiaatNLjxUaTbJu8IDFHTST/lM=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bwOrFM+68tD58wgoM22cKLqJQpw=
+		jXwmXDWfQgPlbmBzUKOzoxcGEtQ=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5mE8q0uA0JZrzlu1YRXoEV+4MJA=
+		a3Rv80KfdDk8TbUlIxk9hYKmu7M=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5mE8q0uA0JZrzlu1YRXoEV+4MJA=
+		a3Rv80KfdDk8TbUlIxk9hYKmu7M=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		agfZz25LoaRubnz++pV92n/ak7w=
+		eh/A+ho8AsWfK+eKHkHzpdYhoz0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UQvUn4ew0/R/GhlgDSGTmNuLx4S7SWeXwyiId0Pm7fU=
+			2HUsh5ks1hW2w14g79/zj3KatgP0DUtM/2AWjnTdtY4=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mey/43EHvCm6gs8obhpwDuwBRzewPKTA04tkWihKO5w=
+			md4S9XkPjZGMTE442rnNgrGDf14f23aC47sgAklIyHI=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mey/43EHvCm6gs8obhpwDuwBRzewPKTA04tkWihKO5w=
+			md4S9XkPjZGMTE442rnNgrGDf14f23aC47sgAklIyHI=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dXYvRla4sqc53UZS7vvEPKDDKF8Q02Fz3/kk5j/ZnzY=
+			e6vJbP5Ez0zdhypid0rMjZRf1s66DObqEa//X82+iwQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -11,16 +11,19 @@ import SwiftUI
 struct PaymentMethodCarouselCell: View {
     @State var paymentOption: PaymentMethodOption
     var body: some View {
-        Text(paymentOption.cardHolder)
+        Image(paymentOption.cardLogo ?? "")
+            .frame(width: 212, height: 96)
     }
 }
 
 #Preview {
-    PaymentMethodCarouselCell(
-        paymentOption: PaymentMethodOption(
-            id: 0,
-            cardName: "Visa",
-            cardHolder: "Juan"
-        )
+    let paymentOption = PaymentMethodOption(
+        id: 0,
+        cardName: "Visa",
+        cardHolder: "Juan",
+        cardLogo: "card_visa_debit"
+    )
+    return PaymentMethodCarouselCell(
+        paymentOption: paymentOption
     )
 }

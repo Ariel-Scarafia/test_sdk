@@ -15,7 +15,7 @@
     "git": "https://github.com/Ariel-Scarafia/test_sdk.git"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "17.0"
   },
   "vendored_frameworks": "SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework",
   "source_files": "SDK_Sources/Interface/**/*",

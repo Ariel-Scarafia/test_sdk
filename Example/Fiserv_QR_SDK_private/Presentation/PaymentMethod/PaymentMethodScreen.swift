@@ -9,33 +9,55 @@
 import SwiftUI
 
 struct PaymentMethodScreen: View {
-    @State var paymentMethod: CreatePaymentRequest
+    @State var paymentRequest: CreatePaymentRequest
     
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack {
-                    Text(paymentMethod.descripcionEmpresa)
-                        .font(.headline)
-                    Text("CVU: \(paymentMethod.cvu)")
-                        .font(.subheadline)
-                        .grayscale(0.40)
-                    Spacer()
-                    Text("$\(paymentMethod.montoIngresable)")
-                        .font(.largeTitle)
-                        .bold()
-                        
-                    Text("Elegí uno de los medios de pago que acepta éste servicio")
-                        .multilineTextAlignment(.center)
+                VStack(spacing: 15) {
+                    Group {
+                        Text(LocalizableStrings.payment_methods_youll_pay_to.localized())
+                        Text(paymentRequest.descripcionEmpresa)
+                    }
+                        .font(FontSettings.mainFont(size: 20, weight: .bold))
+                    
+                    Group {
+                        Text(paymentRequest.currency)
+                        +
+                        Text(paymentRequest.montoIngresable)
+                    }
+                    .padding(.top, 30)
+                    
+                    VStack(spacing: 10) {
+                        Text(LocalizableStrings.payment_methods_select_payment_method.localized())
+                        PaymentMethodCarousel(paymentMethods: paymentRequest.paymentOptions ?? [])
+                            .frame(height: 143)
+                    }
+                    .padding(.top, 30)
+
                 }
+                .background(.white)
+                .padding(.horizontal)
             }
         }
         .navigationTitle("Pagar")
+        
+        Button {
+            
+        } label: {
+            Text(LocalizableStrings.payment_methods_pay.localized())
+                .foregroundStyle(.white)
+                .frame(width: 328, height: 48)
+                .background(content: {
+                    RoundedRectangle(cornerRadius: 3)
+                        .backgroundStyle(ColorSettings.primaryColor)
+                })
+        }
     }
 }
 
 #Preview {
     PaymentMethodScreen(
-        paymentMethod: CreatePaymentRequest()
+        paymentRequest: CreatePaymentRequest()
     )
 }

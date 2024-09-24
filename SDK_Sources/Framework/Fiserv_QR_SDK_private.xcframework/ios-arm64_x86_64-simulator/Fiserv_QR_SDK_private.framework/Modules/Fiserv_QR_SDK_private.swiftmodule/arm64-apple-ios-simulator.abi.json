@@ -69,6 +69,13 @@
         "moduleName": "Fiserv_QR_SDK_private"
       },
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Fiserv_QR_SDK_private"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Fiserv_QR_SDK_MAIN",
         "printedName": "Fiserv_QR_SDK_MAIN",
@@ -167,6 +174,29 @@
             "declKind": "Func",
             "usr": "s:21Fiserv_QR_SDK_private0a1_b1_C5_MAINC14getPaymentViewQryFZ",
             "mangledName": "$s21Fiserv_QR_SDK_private0a1_b1_C5_MAINC14getPaymentViewQryFZ",
+            "moduleName": "Fiserv_QR_SDK_private",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasCameraPermission",
+            "printedName": "hasCameraPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21Fiserv_QR_SDK_private0a1_b1_C5_MAINC19hasCameraPermissionSbyYaFZ",
+            "mangledName": "$s21Fiserv_QR_SDK_private0a1_b1_C5_MAINC19hasCameraPermissionSbyYaFZ",
             "moduleName": "Fiserv_QR_SDK_private",
             "static": true,
             "declAttributes": [
@@ -940,16 +970,72 @@
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
       "kind": "StringLiteral",
-      "offset": 216,
+      "offset": 236,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
-      "kind": "Array",
-      "offset": 293,
-      "length": 2,
-      "value": "[]"
+      "kind": "IntegerLiteral",
+      "offset": 356,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 6,
+      "value": "\"Visa\""
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 7,
+      "value": "\"Lucas\""
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 6,
+      "value": "\"Visa\""
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 9,
+      "value": "\"Rodrigo\""
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 600,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 6,
+      "value": "\"Visa\""
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Fiserv_QR_SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 6,
+      "value": "\"Juan\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/PrivateFramework\/Application\/Networking\/APIEndpoints.swift",

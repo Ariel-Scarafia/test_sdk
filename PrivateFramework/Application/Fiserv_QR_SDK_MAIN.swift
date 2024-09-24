@@ -17,19 +17,24 @@ public class Fiserv_QR_SDK_MAIN {
         PaymentMethodOption(
             id: 0,
             cardName: "Visa",
-            cardHolder: "Lucas"
+            cardHolder: "Lucas",
+            cardLogo: "card_visa_debit"
         ),
         PaymentMethodOption(
             id: 1,
             cardName: "Visa",
-            cardHolder: "Rodrigo"
+            cardHolder: "Rodrigo",
+            cardLogo: "card_visa_debit"
         ),
         PaymentMethodOption(
             id: 2,
             cardName: "Visa",
-            cardHolder: "Juan"
+            cardHolder: "Juan",
+            cardLogo: "card_visa_debit"
         )
     ]
+    
+    static private(set) var paymentRequest: CreatePaymentRequest = CreatePaymentRequest()
     
     static public func getAPIKey() -> String {
         return apiKey
@@ -49,7 +54,8 @@ public class Fiserv_QR_SDK_MAIN {
     }
     
     static public func getPaymentView() -> some View {
-        PaymentMethodCarousel(paymentMethods: paymentOptions)
+        paymentRequest.paymentOptions = paymentOptions
+        return PaymentMethodScreen(paymentRequest: paymentRequest)
     }
     
     static public func hasCameraPermission() async -> Bool {

@@ -18,6 +18,27 @@ class ViewController: UIViewController {
     
     let squareButton = UIButton(frame: CGRect(x: 100, y: 200, width: 142, height: 134))
 
+    let paymentOptions = [
+        PaymentMethodOption(
+            id: 0,
+            cardName: "Visa",
+            cardHolder: "Lucas",
+            cardLogo: "card_visa_debit"
+        ),
+        PaymentMethodOption(
+            id: 1,
+            cardName: "Visa",
+            cardHolder: "Rodrigo",
+            cardLogo: "card_visa_debit"
+        ),
+        PaymentMethodOption(
+            id: 2,
+            cardName: "Visa",
+            cardHolder: "Juan",
+            cardLogo: "card_visa_debit"
+        )
+    ]
+    
     override func viewDidLoad() {
 
         super.viewDidLoad()
@@ -54,12 +75,20 @@ class ViewController: UIViewController {
         
         view.addSubview(squareButton)
         
-//        let carouselView = FiservQR_API.getPaymentCarousel()
-//        let carouselViewCtrl = UIHostingController(rootView: carouselView)
-//        addChildViewController(carouselViewCtrl)
-//        carouselViewCtrl.view.frame = self.view.bounds
-//        view.addSubview(carouselViewCtrl.view)
-//        carouselViewCtrl.didMove(toParent: self)
+//        let carouselView = PaymentMethodCarousel(paymentMethods: paymentOptions)
+//        let viewCtrl = UIHostingController(rootView: carouselView)
+//        self.addChildViewController(viewCtrl)
+//        view.addSubview(viewCtrl.view)
+        guard let encodedData = try? JSONEncoder().encode(paymentOptions) else { return }
+        let data = String(data: encodedData, encoding: .utf8)
+        
+        FiservQR_API.setPaymentOptions(data ?? "")
+        let carouselView = FiservQR_API.getPaymentCarousel()
+        let carouselViewCtrl = UIHostingController(rootView: carouselView)
+        addChildViewController(carouselViewCtrl)
+        carouselViewCtrl.view.frame = self.view.bounds
+        view.addSubview(carouselViewCtrl.view)
+        carouselViewCtrl.didMove(toParent: self)
         
     }
 
@@ -73,13 +102,25 @@ class ViewController: UIViewController {
         isBlinking = !isBlinking
     }
 
-    @objc func requestCamera() {
-        print("Pidió la cámara loco")
-        
+    @objc func requestCamera() {        
         Task {
             let hasPermission = await FiservQR_API.hasCameraPermission()
+            if hasPermission {
+
+            } else {
+                showAlertMessage(title: "Permissions Required", message: "You need to grant camera access to read the QR code")
+            }
             print("Camera permission: \(hasPermission)")
         }
+    }
+    
+    func showAlertMessage(title: String, message: String) {
+        
+        let alertMessagePopUpBox = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okButton = UIAlertAction(title: "OK", style: .default)
+        
+        alertMessagePopUpBox.addAction(okButton)
+        self.present(alertMessagePopUpBox, animated: true)
     }
 }
 

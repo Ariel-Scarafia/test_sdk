@@ -20,11 +20,19 @@ public final class PaymentMethodOption: Codable, Identifiable {
     var propio: Bool = false
     var expirationDate: String = ""
     var currentEmail: String = ""
+    public var cardLogo: String?
         
     public init(id: Int, cardName: String, cardHolder: String) {
         self.id = id
         self.cardName = cardName
         self.cardHolder = cardHolder
+    }
+    
+    public init(id: Int, cardName: String, cardHolder: String, cardLogo: String) {
+        self.id = id
+        self.cardName = cardName
+        self.cardHolder = cardHolder
+        self.cardLogo = cardLogo
     }
     
     func getExpirationMonth() -> String {

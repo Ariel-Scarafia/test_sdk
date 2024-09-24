@@ -1,0 +1,48 @@
+{
+  "sourceLanguage" : "es-419",
+  "strings" : {
+    "%lld" : {
+
+    },
+    "Hello, World!" : {
+
+    },
+    "Pagar" : {
+
+    },
+    "payment_methods_pay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagar"
+          }
+        }
+      }
+    },
+    "payment_methods_select_payment_method" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige uno de los medios de pago"
+          }
+        }
+      }
+    },
+    "payment_methods_youll_pay_to" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vas a pagarle a"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
