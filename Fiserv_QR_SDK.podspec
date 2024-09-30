@@ -34,6 +34,9 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'SDK_Sources/Interface/**/*'
   
+  s.resource_bundles = {
+    'Fiserv_QR_SDK' => ['SDK_Sources/Interface/Resources/**/*']
+  }
   # s.resource_bundles = {
   #   'Fiserv_QR_SDK' => ['Fiserv_QR_SDK/Assets/*.png']
   # }
@@ -42,5 +45,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     
-  s.dependency 'BarcodeScanner', '4.1.3'
+#  s.dependency 'BarcodeScanner', '4.1.3'
 end

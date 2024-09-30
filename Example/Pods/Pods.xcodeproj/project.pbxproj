@@ -7,184 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EBCF7B3C88FC6643F0599BF2304FE63 /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8B60C30BCDF651084F985E3602C373 /* FocusViewType.swift */; };
-		24AA71EAF60D29C661D1923970E72AD1 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF25EA2878A9F10898ED34C0F323B44 /* TorchMode.swift */; };
-		25F5AFA6DDCBBE08EC0421540E40C4F0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F2D69082F838298F17993D8BA1FCE9 /* UIView+Extensions.swift */; };
-		298E0B47522741E355F1911FD93771A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA4E75E2E4A78CE04D139270A39EC986 /* Localizable.strings */; };
-		304167D701707C589D6590ED64FFF1C3 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */; };
-		3BD7464E18C8E98EFEB9EE7F6E5DD77F /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8467DD92E613F2EF681E784CD979FD1A /* info@3x.png */; };
-		46862AB80D76D49CAD48B1957764A4CC /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */; };
-		4ECC40447769570EBDCD7B457B94C921 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AFE840764C7D68A0B7DCA528139F03 /* PaymentMethodOption.swift */; };
-		50CBCDF22C13EE16801478692C209DC5 /* Fiserv_QR_SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2735709745D9C9ABECADEC4050452EC /* Fiserv_QR_SDK-dummy.m */; };
-		5A9758B42CAB060100CB5B59 /* ImagesResourcesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9758B32CAB060100CB5B59 /* ImagesResourcesSettings.swift */; };
-		5D04B500ECC7E5C82D7202B236F9D979 /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */; };
-		6407A07569B69CDF65FF93F24ABA7B4A /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 819B6ED50300FFC9199A7CAABC3D4264 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		69574212523C2707BA454A34BE87F02B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */; };
-		6CA8AB606EE9B36F041C77DCA1BB6F98 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */; };
-		7AFDB9138DC6BD605B40670D7F0B309D /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48A5AC301EC1002ECF1543CE9954FD /* NSLayoutConstraint+Extensions.swift */; };
-		8008C0E4602B8ED21EF7295809CA1283 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452EE8ECF99DE4018B1A49D8B45D605 /* HeaderViewController.swift */; };
-		8C68EE7D605E757EBC262B2BBBC2F6FA /* FiservQR_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7BD5D7768EB5E588C6A0DC2E8FDD0 /* FiservQR_API.swift */; };
-		901B7902464741B1A28B087447E80F04 /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF3A25A4C9617BC6047A2CE2D46F23 /* BarcodeScanner-dummy.m */; };
-		963B3B1B5EF6F9FC05425B81F1BEBBE4 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867E14492301D6DF710E4A59D635F15 /* PaymentMethod.swift */; };
-		9DE08F6CF9C29FA0DF79E9F0D9317B7C /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685AE91D390FCAC227C374A25F1AF52 /* BarcodeScannerViewController.swift */; };
-		A7B57C86787A60E53FB6C2BDB2E9689E /* Fiserv_QR_SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABAB91D78EB1FFF08D9CBF3128403E3 /* Fiserv_QR_SDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AADE0DA6627D1960B8D469DE8C3310B8 /* Pods-Fiserv_QR_SDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A752E63D3780B9D7A3E04A93CDCE7213 /* Pods-Fiserv_QR_SDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B1631C6C99A1039EF6B5FDAA049AEE7F /* Pods-Fiserv_QR_SDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F49B4588C30427ACFF30A08A68A46 /* Pods-Fiserv_QR_SDK_Example-dummy.m */; };
-		B425C79EFBEAA39AAF1D4612274008D6 /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE030A76BE246064AA94761383296827 /* cameraRotate@3x.png */; };
-		B9268EB71AD1FFD0E3D2DD3636ED4EC5 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C188D08ED60D7D12AD1C48E1D47D1 /* Functions.swift */; };
-		BFF41A7B33CB1FBFC786249AF1E93D59 /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5F31E026D40D9C47EE17DA85E06E /* VideoPermissionService.swift */; };
-		D51F803016812DE50A4E5F774D42EA7B /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB65B77F44AACBC20E318D5EC6BE1A9D /* AVMetadataObject+Extensions.swift */; };
-		DA53369B57B0CA05D87E89C0CDEF22D9 /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E9C984870428AF84AA50669ABA352F /* flashOn@3x.png */; };
+		022EC11A81ECA4A36FB75EDC240E1E9A /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 6DBA00A32AFCEDC6EFB610FEE4B4A750 /* Model */; };
+		09BF5DC836EEFDC91DD759BF939F3FC2 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = D60E2AC52F90B359FA665294B093BE8A /* Resources */; };
+		0AC28D2240FA784A3A4BD9FD3929A507 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10C828F04CC7FF4D9094ED8160329C /* PaymentMethodOption.swift */; };
+		38C10A0A591BD9C2A9C10C0A6CCE185E /* FiservQR_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F5A053979959BF51283F99FF7ED7F8 /* FiservQR_API.swift */; };
+		49EDCF44E760A9900AD0F79D51C9A8B9 /* Fiserv_QR_SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB16569820902B058F367236A3BCBF5 /* Fiserv_QR_SDK-dummy.m */; };
+		5140A76978EBF51A070D8AFEFB484D11 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD9DDD62012CEE9685382610BA45FF /* PaymentMethod.swift */; };
+		A85FF58624A9B07FD48FC740E8186B08 /* Pods-Fiserv_QR_SDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F49B4588C30427ACFF30A08A68A46 /* Pods-Fiserv_QR_SDK_Example-dummy.m */; };
+		BC3AF2E479B02C1083BA84A5DCB9ECA0 /* PaymentMethod.swift in Resources */ = {isa = PBXBuildFile; fileRef = 33FD9DDD62012CEE9685382610BA45FF /* PaymentMethod.swift */; };
+		C198783067E6997BD2B092E4CE8D02EF /* Pods-Fiserv_QR_SDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A752E63D3780B9D7A3E04A93CDCE7213 /* Pods-Fiserv_QR_SDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E636466FD1941CEB27E1AABAA860730D /* PaymentMethodOption.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8A10C828F04CC7FF4D9094ED8160329C /* PaymentMethodOption.swift */; };
+		F46A64BF7F215B96ED521531D4C4BE18 /* Fiserv_QR_SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE46A9BB187D10BDE505CFDD50E0C73 /* Fiserv_QR_SDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA178614796C3F05820149D4EFF041DB /* FiservQR_API.swift in Resources */ = {isa = PBXBuildFile; fileRef = F5F5A053979959BF51283F99FF7ED7F8 /* FiservQR_API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F94FBB513ED3C8E6331C639B26C2A96 /* PBXContainerItemProxy */ = {
+		1F989928137FDF0CD592CBA02AFC447B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B19B9B5E2AE0C746E6BB3B5084A78ED;
 			remoteInfo = "Fiserv_QR_SDK-Fiserv_QR_SDK";
 		};
-		9F63A0230FD199B724DDD85154682E89 /* PBXContainerItemProxy */ = {
+		E1F99C90A6D0BBB0CCE18638B7B685CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 189956E2E7BD7E5E78016BCD6BCFCC51;
 			remoteInfo = Fiserv_QR_SDK;
 		};
-		B1F2BCAC61E954885DABC12C84493339 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02E136446D8E897681981873306A783A;
-			remoteInfo = "BarcodeScanner-BarcodeScanner";
-		};
-		C0465C54C8BE323C96CFFCEAC1254D8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
-			remoteInfo = BarcodeScanner;
-		};
-		E977909CD1F28B950CD41BA435CB7D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2598A00DF974C904143778EDC46CC0E5;
-			remoteInfo = "BarcodeScanner-Localization";
-		};
-		FE36673AA697454CFF80F6A3EEE9F2D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
-			remoteInfo = BarcodeScanner;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012021EEC0E60722AB9C098C070B47CF /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		0013D6E47A6094BBAAA51BFA25A15940 /* ResourceBundle-Fiserv_QR_SDK-Fiserv_QR_SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fiserv_QR_SDK-Fiserv_QR_SDK-Info.plist"; sourceTree = "<group>"; };
 		0535343D0094136F21BBFC595E79A20B /* Pods-Fiserv_QR_SDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fiserv_QR_SDK_Example.modulemap"; sourceTree = "<group>"; };
-		053817C9AD5917D93750F02360DB4AD6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		0B3C188D08ED60D7D12AD1C48E1D47D1 /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
+		074BAFCF97F3813C72DBB03A509531F6 /* Fiserv_QR_SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fiserv_QR_SDK.modulemap; sourceTree = "<group>"; };
 		17673416BDD020321FEC4DD2EDB4DC68 /* Fiserv_QR_SDK */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Fiserv_QR_SDK; path = libFiserv_QR_SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F189A5F1DB595A21C9DA8B61BAC863 /* Pods-Fiserv_QR_SDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fiserv_QR_SDK_Example-resources.sh"; sourceTree = "<group>"; };
-		1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
-		1F90C8BD19F12E18DE5E85F6705727D3 /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
 		1FD039C70361519E06EFFD0948D9C00A /* Pods-Fiserv_QR_SDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fiserv_QR_SDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		3226CF3D99F85FB3546620482C195A9E /* BarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
-		3867E14492301D6DF710E4A59D635F15 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
-		4040E9D064464087A849FCCA5C5AA042 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		43AFE840764C7D68A0B7DCA528139F03 /* PaymentMethodOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethodOption.swift; sourceTree = "<group>"; };
-		45D7BD5D7768EB5E588C6A0DC2E8FDD0 /* FiservQR_API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FiservQR_API.swift; path = SDK_Sources/Interface/FiservQR_API.swift; sourceTree = "<group>"; };
-		5A9758B02CAB03FD00CB5B59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5A9758B22CAB041100CB5B59 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		5A9758B32CAB060100CB5B59 /* ImagesResourcesSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesResourcesSettings.swift; sourceTree = "<group>"; };
-		5DA21BBF0E95817DACAD6BA3670AF505 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
-		6137080DDD01C0F85A4DF5D5A68DE71B /* BarcodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.release.xcconfig; sourceTree = "<group>"; };
-		6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		33FD9DDD62012CEE9685382610BA45FF /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		3AE46A9BB187D10BDE505CFDD50E0C73 /* Fiserv_QR_SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fiserv_QR_SDK-umbrella.h"; sourceTree = "<group>"; };
+		3C10000AD5C79B1F69FF7591B19E204C /* Fiserv_QR_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fiserv_QR_SDK.release.xcconfig; sourceTree = "<group>"; };
 		64AE2D45A781FD2844D89A3FAE3DCBC9 /* Fiserv_QR_SDK-Fiserv_QR_SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Fiserv_QR_SDK-Fiserv_QR_SDK"; path = Fiserv_QR_SDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		64F0ACD6312C53C3195AE329434146DA /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6B560577CEB9C47EF8979EB614A50FB8 /* Fiserv_QR_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fiserv_QR_SDK.debug.xcconfig; sourceTree = "<group>"; };
-		717A5F31E026D40D9C47EE17DA85E06E /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
-		74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BarcodeScanner-Localization"; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBA00A32AFCEDC6EFB610FEE4B4A750 /* Model */ = {isa = PBXFileReference; includeInIndex = 1; name = Model; path = SDK_Sources/Interface/Model; sourceTree = "<group>"; };
 		77BCC74F08B6AB2550DC35A510A54E49 /* Pods-Fiserv_QR_SDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fiserv_QR_SDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A23FC8C53FE41D60F8ACBAD1511F01F /* Pods-Fiserv_QR_SDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fiserv_QR_SDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7AF4B1CC3D766F22552C8996666361DD /* Fiserv_QR_SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Fiserv_QR_SDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		7EF25EA2878A9F10898ED34C0F323B44 /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
-		7F4F04AFB5621869A5041CCC30007164 /* Fiserv_QR_SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fiserv_QR_SDK-prefix.pch"; sourceTree = "<group>"; };
-		819B6ED50300FFC9199A7CAABC3D4264 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
-		82930BC074D59DE3C02EA0B4329DEFB4 /* ResourceBundle-Fiserv_QR_SDK-Fiserv_QR_SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fiserv_QR_SDK-Fiserv_QR_SDK-Info.plist"; sourceTree = "<group>"; };
-		82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
-		8467DD92E613F2EF681E784CD979FD1A /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
-		871453150ADB628D34061BE7F784321B /* Fiserv_QR_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fiserv_QR_SDK.release.xcconfig; sourceTree = "<group>"; };
-		9452EE8ECF99DE4018B1A49D8B45D605 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
-		97D5068E20174921B3C0842FC4BB75E0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9ABAB91D78EB1FFF08D9CBF3128403E3 /* Fiserv_QR_SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fiserv_QR_SDK-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAEC2D98A8E72BD8E931ADCAB1EF337 /* Fiserv_QR_SDK_private.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = Fiserv_QR_SDK_private.xcframework; path = SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework; sourceTree = "<group>"; };
-		A10724B7BE81F9FD007AE72DA2123A2F /* Fiserv_QR_SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Fiserv_QR_SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BarcodeScanner-BarcodeScanner"; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A685AE91D390FCAC227C374A25F1AF52 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		83A91C6FE61CEFD351A4951E58F352AA /* Fiserv_QR_SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fiserv_QR_SDK-prefix.pch"; sourceTree = "<group>"; };
+		87EB9EF95B90E5F7F6798349F89C69F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		88E11E99F6AA57345D8A1203F617F3D7 /* Fiserv_QR_SDK_private.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Fiserv_QR_SDK_private.xcframework; path = SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework; sourceTree = "<group>"; };
+		8A10C828F04CC7FF4D9094ED8160329C /* PaymentMethodOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethodOption.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A752E63D3780B9D7A3E04A93CDCE7213 /* Pods-Fiserv_QR_SDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fiserv_QR_SDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		AC04DB1B57A0E135F1AE86E79AD63080 /* Pods-Fiserv_QR_SDK_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Fiserv_QR_SDK_Example"; path = "libPods-Fiserv_QR_SDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD8B60C30BCDF651084F985E3602C373 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
-		AF48A5AC301EC1002ECF1543CE9954FD /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
-		B4F2D69082F838298F17993D8BA1FCE9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
 		B99000F07FC6200E8E032AFC3B51AD46 /* Pods-Fiserv_QR_SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fiserv_QR_SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BED79565B1FCB220BBD80052F3CE0674 /* Fiserv_QR_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fiserv_QR_SDK.debug.xcconfig; sourceTree = "<group>"; };
+		BFB16569820902B058F367236A3BCBF5 /* Fiserv_QR_SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fiserv_QR_SDK-dummy.m"; sourceTree = "<group>"; };
 		C9CE0FA1104143589D7FCA30F549FEB7 /* Pods-Fiserv_QR_SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fiserv_QR_SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BarcodeScanner; path = libBarcodeScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2735709745D9C9ABECADEC4050452EC /* Fiserv_QR_SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fiserv_QR_SDK-dummy.m"; sourceTree = "<group>"; };
-		D8BF3A25A4C9617BC6047A2CE2D46F23 /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
-		DE030A76BE246064AA94761383296827 /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
-		E8422BA73AE40A421A99BB16499C4F82 /* Fiserv_QR_SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fiserv_QR_SDK.modulemap; sourceTree = "<group>"; };
-		EB65B77F44AACBC20E318D5EC6BE1A9D /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
-		EC24BAD4A5127FD05D1BDD907CD1CB0D /* ResourceBundle-Localization-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
-		ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
+		D2C0D829412B453C1FE8435AA5398FD8 /* Fiserv_QR_SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Fiserv_QR_SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		D60E2AC52F90B359FA665294B093BE8A /* Resources */ = {isa = PBXFileReference; includeInIndex = 1; name = Resources; path = SDK_Sources/Interface/Resources; sourceTree = "<group>"; };
 		F05F49B4588C30427ACFF30A08A68A46 /* Pods-Fiserv_QR_SDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fiserv_QR_SDK_Example-dummy.m"; sourceTree = "<group>"; };
-		F176B1A2CAD17564DD9BF115367F4EFC /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F2E9C984870428AF84AA50669ABA352F /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
-		F4C5E07ED13CE35A74CD55555F40012E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F5F5A053979959BF51283F99FF7ED7F8 /* FiservQR_API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FiservQR_API.swift; path = SDK_Sources/Interface/FiservQR_API.swift; sourceTree = "<group>"; };
+		F7F48FAF76E277541AA39699BCD81DC4 /* Fiserv_QR_SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Fiserv_QR_SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3051DBF334F2CD106B8EAA1583C0BB7A /* Frameworks */ = {
+		0F981DD9C3F4F05C3BDA59678947F805 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		557833632D5DE8622FF1BA3A5B118817 /* Frameworks */ = {
+		4C12A26A6DB37DC48CDC024E0088F066 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7430509C42D9FF32EF0BE6EE20B227AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3F838F44364F79E1068CA4259274AF9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6C458BDAAD380AC0FD89ACE5A3AA28E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F05BA6153CC9A0AE6DFD0FEFE9EF6AAD /* Frameworks */ = {
+		D8B78CBDF2001A4185ACACEFFF208C79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,25 +95,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B57E632D42737494D4000DA0D649E1B /* Products */ = {
+		13E41CA9B9206D63B447E5522C82E63A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner */,
-				A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */,
-				74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */,
-				17673416BDD020321FEC4DD2EDB4DC68 /* Fiserv_QR_SDK */,
-				64AE2D45A781FD2844D89A3FAE3DCBC9 /* Fiserv_QR_SDK-Fiserv_QR_SDK */,
-				AC04DB1B57A0E135F1AE86E79AD63080 /* Pods-Fiserv_QR_SDK_Example */,
+				88E11E99F6AA57345D8A1203F617F3D7 /* Fiserv_QR_SDK_private.xcframework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		28EED4EBB4E2D456301010229E6F9B2B /* Development Pods */ = {
+		18FE85EFAABE0A602F9A1DD29D3B743B /* Fiserv_QR_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				306C173096969F60798D6E0C2E62C1B7 /* Fiserv_QR_SDK */,
+				F5F5A053979959BF51283F99FF7ED7F8 /* FiservQR_API.swift */,
+				6DBA00A32AFCEDC6EFB610FEE4B4A750 /* Model */,
+				D60E2AC52F90B359FA665294B093BE8A /* Resources */,
+				13E41CA9B9206D63B447E5522C82E63A /* Frameworks */,
+				57E595F104F408C8693914D10FAC43C5 /* Model */,
+				B5FCF6EEED0B3BAEF3C60185867CD5A9 /* Pod */,
+				E635FF38E77A39E7A08FBB939FD47E40 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Fiserv_QR_SDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		29E1D6CE11790EE0351554AD5BCF739E /* Pods-Fiserv_QR_SDK_Example */ = {
@@ -232,34 +135,14 @@
 			path = "Target Support Files/Pods-Fiserv_QR_SDK_Example";
 			sourceTree = "<group>";
 		};
-		306C173096969F60798D6E0C2E62C1B7 /* Fiserv_QR_SDK */ = {
+		2BF8D72FA0919C3C170AE354388FEFA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45D7BD5D7768EB5E588C6A0DC2E8FDD0 /* FiservQR_API.swift */,
-				5A9758B12CAB041100CB5B59 /* Resources */,
-				F7304222265288EA9497BD03DCC99873 /* Frameworks */,
-				539E03F5F4D361D8B44FC094A2D40960 /* Model */,
-				9E578A35FDA8E30B92E36DF7C889AA64 /* Pod */,
-				97C89051903DD4E2445E061D6DC32DCE /* Support Files */,
+				17673416BDD020321FEC4DD2EDB4DC68 /* Fiserv_QR_SDK */,
+				64AE2D45A781FD2844D89A3FAE3DCBC9 /* Fiserv_QR_SDK-Fiserv_QR_SDK */,
+				AC04DB1B57A0E135F1AE86E79AD63080 /* Pods-Fiserv_QR_SDK_Example */,
 			);
-			name = Fiserv_QR_SDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		307FE24CCC59D3D076C2502FB0DF7B4B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				012021EEC0E60722AB9C098C070B47CF /* BarcodeScanner.modulemap */,
-				D8BF3A25A4C9617BC6047A2CE2D46F23 /* BarcodeScanner-dummy.m */,
-				1F90C8BD19F12E18DE5E85F6705727D3 /* BarcodeScanner-prefix.pch */,
-				819B6ED50300FFC9199A7CAABC3D4264 /* BarcodeScanner-umbrella.h */,
-				3226CF3D99F85FB3546620482C195A9E /* BarcodeScanner.debug.xcconfig */,
-				6137080DDD01C0F85A4DF5D5A68DE71B /* BarcodeScanner.release.xcconfig */,
-				5DA21BBF0E95817DACAD6BA3670AF505 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */,
-				EC24BAD4A5127FD05D1BDD907CD1CB0D /* ResourceBundle-Localization-BarcodeScanner-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BarcodeScanner";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		311B75A0D3D8041963C1FA4BE60A6093 /* Targets Support Files */ = {
@@ -270,56 +153,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		539E03F5F4D361D8B44FC094A2D40960 /* Model */ = {
+		57E595F104F408C8693914D10FAC43C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3867E14492301D6DF710E4A59D635F15 /* PaymentMethod.swift */,
-				43AFE840764C7D68A0B7DCA528139F03 /* PaymentMethodOption.swift */,
+				33FD9DDD62012CEE9685382610BA45FF /* PaymentMethod.swift */,
+				8A10C828F04CC7FF4D9094ED8160329C /* PaymentMethodOption.swift */,
 			);
 			name = Model;
 			path = SDK_Sources/Interface/Model;
 			sourceTree = "<group>";
 		};
-		5A9758B12CAB041100CB5B59 /* Resources */ = {
+		A71666D00425F43B70BB57B548124099 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A9758B02CAB03FD00CB5B59 /* Images.xcassets */,
-				5A9758B22CAB041100CB5B59 /* Localizable.xcstrings */,
-				5A9758B32CAB060100CB5B59 /* ImagesResourcesSettings.swift */,
+				18FE85EFAABE0A602F9A1DD29D3B743B /* Fiserv_QR_SDK */,
 			);
-			name = Resources;
-			path = SDK_Sources/Interface/Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		85D9386E567BD1767925E10C140DBD7B /* Pods */ = {
+		B5FCF6EEED0B3BAEF3C60185867CD5A9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D1B8B0F32B09C71742E4C944D035B4BD /* BarcodeScanner */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		97C89051903DD4E2445E061D6DC32DCE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8422BA73AE40A421A99BB16499C4F82 /* Fiserv_QR_SDK.modulemap */,
-				D2735709745D9C9ABECADEC4050452EC /* Fiserv_QR_SDK-dummy.m */,
-				7F4F04AFB5621869A5041CCC30007164 /* Fiserv_QR_SDK-prefix.pch */,
-				9ABAB91D78EB1FFF08D9CBF3128403E3 /* Fiserv_QR_SDK-umbrella.h */,
-				7AF4B1CC3D766F22552C8996666361DD /* Fiserv_QR_SDK-xcframeworks.sh */,
-				6B560577CEB9C47EF8979EB614A50FB8 /* Fiserv_QR_SDK.debug.xcconfig */,
-				871453150ADB628D34061BE7F784321B /* Fiserv_QR_SDK.release.xcconfig */,
-				82930BC074D59DE3C02EA0B4329DEFB4 /* ResourceBundle-Fiserv_QR_SDK-Fiserv_QR_SDK-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Fiserv_QR_SDK";
-			sourceTree = "<group>";
-		};
-		9E578A35FDA8E30B92E36DF7C889AA64 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A10724B7BE81F9FD007AE72DA2123A2F /* Fiserv_QR_SDK.podspec */,
-				4040E9D064464087A849FCCA5C5AA042 /* LICENSE */,
+				F7F48FAF76E277541AA39699BCD81DC4 /* Fiserv_QR_SDK.podspec */,
+				87EB9EF95B90E5F7F6798349F89C69F7 /* LICENSE */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -328,34 +184,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				28EED4EBB4E2D456301010229E6F9B2B /* Development Pods */,
+				A71666D00425F43B70BB57B548124099 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				85D9386E567BD1767925E10C140DBD7B /* Pods */,
-				1B57E632D42737494D4000DA0D649E1B /* Products */,
+				2BF8D72FA0919C3C170AE354388FEFA5 /* Products */,
 				311B75A0D3D8041963C1FA4BE60A6093 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1B8B0F32B09C71742E4C944D035B4BD /* BarcodeScanner */ = {
-			isa = PBXGroup;
-			children = (
-				EB65B77F44AACBC20E318D5EC6BE1A9D /* AVMetadataObject+Extensions.swift */,
-				A685AE91D390FCAC227C374A25F1AF52 /* BarcodeScannerViewController.swift */,
-				82BE7002FF48246B704D5AC5EDAA1405 /* CameraViewController.swift */,
-				AD8B60C30BCDF651084F985E3602C373 /* FocusViewType.swift */,
-				0B3C188D08ED60D7D12AD1C48E1D47D1 /* Functions.swift */,
-				9452EE8ECF99DE4018B1A49D8B45D605 /* HeaderViewController.swift */,
-				ED03931DBFC2A5831F5BDFE4439CA992 /* MessageViewController.swift */,
-				AF48A5AC301EC1002ECF1543CE9954FD /* NSLayoutConstraint+Extensions.swift */,
-				1ED337BA1B4EEB5603AE43AFF0C64083 /* State.swift */,
-				7EF25EA2878A9F10898ED34C0F323B44 /* TorchMode.swift */,
-				B4F2D69082F838298F17993D8BA1FCE9 /* UIView+Extensions.swift */,
-				2807B91BC7AF8E56A4B6A7230410E1D9 /* UIViewController+Extensions.swift */,
-				717A5F31E026D40D9C47EE17DA85E06E /* VideoPermissionService.swift */,
-				F70A9860F22E22E1AEE36C9DCEC07F18 /* Resources */,
-				307FE24CCC59D3D076C2502FB0DF7B4B /* Support Files */,
-			);
-			path = BarcodeScanner;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -365,80 +198,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F70A9860F22E22E1AEE36C9DCEC07F18 /* Resources */ = {
+		E635FF38E77A39E7A08FBB939FD47E40 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE030A76BE246064AA94761383296827 /* cameraRotate@3x.png */,
-				6245AEA24CE65B7F30F96B5F9797B7E2 /* flashOff@3x.png */,
-				F2E9C984870428AF84AA50669ABA352F /* flashOn@3x.png */,
-				8467DD92E613F2EF681E784CD979FD1A /* info@3x.png */,
-				DA4E75E2E4A78CE04D139270A39EC986 /* Localizable.strings */,
+				074BAFCF97F3813C72DBB03A509531F6 /* Fiserv_QR_SDK.modulemap */,
+				BFB16569820902B058F367236A3BCBF5 /* Fiserv_QR_SDK-dummy.m */,
+				83A91C6FE61CEFD351A4951E58F352AA /* Fiserv_QR_SDK-prefix.pch */,
+				3AE46A9BB187D10BDE505CFDD50E0C73 /* Fiserv_QR_SDK-umbrella.h */,
+				D2C0D829412B453C1FE8435AA5398FD8 /* Fiserv_QR_SDK-xcframeworks.sh */,
+				BED79565B1FCB220BBD80052F3CE0674 /* Fiserv_QR_SDK.debug.xcconfig */,
+				3C10000AD5C79B1F69FF7591B19E204C /* Fiserv_QR_SDK.release.xcconfig */,
+				0013D6E47A6094BBAAA51BFA25A15940 /* ResourceBundle-Fiserv_QR_SDK-Fiserv_QR_SDK-Info.plist */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F7304222265288EA9497BD03DCC99873 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9EAEC2D98A8E72BD8E931ADCAB1EF337 /* Fiserv_QR_SDK_private.xcframework */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Fiserv_QR_SDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1220BE832BA251608D7F76003754093F /* Headers */ = {
+		944D138364C4F6C70D51EBF7A2A2ADC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B57C86787A60E53FB6C2BDB2E9689E /* Fiserv_QR_SDK-umbrella.h in Headers */,
+				C198783067E6997BD2B092E4CE8D02EF /* Pods-Fiserv_QR_SDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A2F6C6DD408F210CCF8BF761A1EE686 /* Headers */ = {
+		B0BEB1477DD1689089B021AB43AC8DE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADE0DA6627D1960B8D469DE8C3310B8 /* Pods-Fiserv_QR_SDK_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7843AC990161D64DD55FE148ABA08ED /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6407A07569B69CDF65FF93F24ABA7B4A /* BarcodeScanner-umbrella.h in Headers */,
+				F46A64BF7F215B96ED521531D4C4BE18 /* Fiserv_QR_SDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9F1E085419F8E195D9568C9E37F0D5E /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
-			buildPhases = (
-				DD87FD126DADD717EE2C91F167F87836 /* Sources */,
-				C3F838F44364F79E1068CA4259274AF9 /* Frameworks */,
-				E7F8A825249610191A5CCF8EB7D95D35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BarcodeScanner-BarcodeScanner";
-			productName = BarcodeScanner;
-			productReference = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */;
-			productType = "com.apple.product-type.bundle";
-		};
 		0B19B9B5E2AE0C746E6BB3B5084A78ED /* Fiserv_QR_SDK-Fiserv_QR_SDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C9CC9167D13F25A578674C1A0C95A60 /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK-Fiserv_QR_SDK" */;
+			buildConfigurationList = 32BE1D01BED886229786F38D64EC1E09 /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK-Fiserv_QR_SDK" */;
 			buildPhases = (
-				2F9294216385B7AC06702F8AFF8A98CF /* Sources */,
-				7430509C42D9FF32EF0BE6EE20B227AF /* Frameworks */,
-				A5F9DB53FE25F9184C01926B2D4D1A5F /* Resources */,
+				50D2C9CBABA5E017595B51CB9CDF71F7 /* Sources */,
+				0F981DD9C3F4F05C3BDA59678947F805 /* Frameworks */,
+				22456D72B524AF0FA361170C7F9AED25 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -451,75 +255,36 @@
 		};
 		189956E2E7BD7E5E78016BCD6BCFCC51 /* Fiserv_QR_SDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0587EF62D20B78F16A2C74999F0170B /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK" */;
+			buildConfigurationList = F16C790B699133FE91E06378FA58BA07 /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK" */;
 			buildPhases = (
-				1220BE832BA251608D7F76003754093F /* Headers */,
-				0DA4BCEBD298FE8DC57E5834A00F3EEE /* [CP] Copy XCFrameworks */,
-				B2DEB9239F936C0606964E1ACD960609 /* Sources */,
-				D6C458BDAAD380AC0FD89ACE5A3AA28E /* Frameworks */,
-				F16E951FE0AE7FDA9507A5C5E685BCCE /* Copy generated compatibility header */,
+				B0BEB1477DD1689089B021AB43AC8DE7 /* Headers */,
+				FEED80F9B0F769425735ED46BD0B8358 /* [CP] Copy XCFrameworks */,
+				5BD4A9F497E787B6C51A52C64548D12E /* Sources */,
+				D8B78CBDF2001A4185ACACEFFF208C79 /* Frameworks */,
+				4D860AC852607A70676D87171D12CF3B /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				916DEE89DE859741242D579E83D0C3CA /* PBXTargetDependency */,
-				631AF93262F499D9B0304A3066E9BA74 /* PBXTargetDependency */,
+				8EA76DDF86EF6561298FF7DF52236943 /* PBXTargetDependency */,
 			);
 			name = Fiserv_QR_SDK;
 			productName = Fiserv_QR_SDK;
 			productReference = 17673416BDD020321FEC4DD2EDB4DC68 /* Fiserv_QR_SDK */;
 			productType = "com.apple.product-type.library.static";
 		};
-		2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A6DB4E64327EAC313AA34FCAC7456EE /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
-			buildPhases = (
-				5935EE5A9917EA4A4845B2CF601FDB9E /* Sources */,
-				3051DBF334F2CD106B8EAA1583C0BB7A /* Frameworks */,
-				C881D2E9220840D8160B403E25003928 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BarcodeScanner-Localization";
-			productName = Localization;
-			productReference = 74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */;
-			productType = "com.apple.product-type.bundle";
-		};
-		39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C1F4A056F4F1BBDBF828029FBDBC28A /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
-			buildPhases = (
-				F7843AC990161D64DD55FE148ABA08ED /* Headers */,
-				773C67883A1FCFF92939C60961FFEACB /* Sources */,
-				F05BA6153CC9A0AE6DFD0FEFE9EF6AAD /* Frameworks */,
-				AFA91789F62E2317E8D7CCF210DA1080 /* Copy generated compatibility header */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1AD5991CC1444CE105740CA706B12D72 /* PBXTargetDependency */,
-				19DBFD84710E259530BD95DA7E518A1E /* PBXTargetDependency */,
-			);
-			name = BarcodeScanner;
-			productName = BarcodeScanner;
-			productReference = CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner */;
-			productType = "com.apple.product-type.library.static";
-		};
 		8032EDDEB6648DC5140BC7E6684D2408 /* Pods-Fiserv_QR_SDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33EA8B8E09A6AFF97A39FC1C3D499078 /* Build configuration list for PBXNativeTarget "Pods-Fiserv_QR_SDK_Example" */;
+			buildConfigurationList = 05F0C7857FAF2A44A6C818044FA04809 /* Build configuration list for PBXNativeTarget "Pods-Fiserv_QR_SDK_Example" */;
 			buildPhases = (
-				1A2F6C6DD408F210CCF8BF761A1EE686 /* Headers */,
-				C0D6EEFE55C998B78D48C90A11BDE361 /* Sources */,
-				557833632D5DE8622FF1BA3A5B118817 /* Frameworks */,
+				944D138364C4F6C70D51EBF7A2A2ADC5 /* Headers */,
+				303DA670382464A17E10640D27F79D8B /* Sources */,
+				4C12A26A6DB37DC48CDC024E0088F066 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C34571C1AF9837F3AF8FBF2A1A962820 /* PBXTargetDependency */,
-				517729F89C361FB30C9AD01DFBAF5953 /* PBXTargetDependency */,
+				FE1757EA4989F24D1C1A594518861F3D /* PBXTargetDependency */,
 			);
 			name = "Pods-Fiserv_QR_SDK_Example";
 			productName = "Pods-Fiserv_QR_SDK_Example";
@@ -541,20 +306,13 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
-				de,
 				en,
-				fr,
-				"pl-PL",
-				tr,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1B57E632D42737494D4000DA0D649E1B /* Products */;
+			productRefGroup = 2BF8D72FA0919C3C170AE354388FEFA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */,
-				02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */,
-				2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */,
 				189956E2E7BD7E5E78016BCD6BCFCC51 /* Fiserv_QR_SDK */,
 				0B19B9B5E2AE0C746E6BB3B5084A78ED /* Fiserv_QR_SDK-Fiserv_QR_SDK */,
 				8032EDDEB6648DC5140BC7E6684D2408 /* Pods-Fiserv_QR_SDK_Example */,
@@ -563,78 +321,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A5F9DB53FE25F9184C01926B2D4D1A5F /* Resources */ = {
+		22456D72B524AF0FA361170C7F9AED25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C881D2E9220840D8160B403E25003928 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				298E0B47522741E355F1911FD93771A2 /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7F8A825249610191A5CCF8EB7D95D35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B425C79EFBEAA39AAF1D4612274008D6 /* cameraRotate@3x.png in Resources */,
-				5D04B500ECC7E5C82D7202B236F9D979 /* flashOff@3x.png in Resources */,
-				DA53369B57B0CA05D87E89C0CDEF22D9 /* flashOn@3x.png in Resources */,
-				3BD7464E18C8E98EFEB9EE7F6E5DD77F /* info@3x.png in Resources */,
+				FA178614796C3F05820149D4EFF041DB /* FiservQR_API.swift in Resources */,
+				022EC11A81ECA4A36FB75EDC240E1E9A /* Model in Resources */,
+				BC3AF2E479B02C1083BA84A5DCB9ECA0 /* PaymentMethod.swift in Resources */,
+				E636466FD1941CEB27E1AABAA860730D /* PaymentMethodOption.swift in Resources */,
+				09BF5DC836EEFDC91DD759BF939F3FC2 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DA4BCEBD298FE8DC57E5834A00F3EEE /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Fiserv_QR_SDK/Fiserv_QR_SDK-xcframeworks.sh",
-				"${PODS_ROOT}/../../SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Fiserv_QR_SDK/Fiserv_QR_SDK_private.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Fiserv_QR_SDK/Fiserv_QR_SDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFA91789F62E2317E8D7CCF210DA1080 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/BarcodeScanner/BarcodeScanner.modulemap",
-				"${PODS_ROOT}/Headers/Public/BarcodeScanner/BarcodeScanner-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/BarcodeScanner-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BarcodeScanner/BarcodeScanner.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BarcodeScanner/BarcodeScanner-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-		};
-		F16E951FE0AE7FDA9507A5C5E685BCCE /* Copy generated compatibility header */ = {
+		4D860AC852607A70676D87171D12CF3B /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -658,173 +360,98 @@
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Fiserv_QR_SDK/Fiserv_QR_SDK.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Fiserv_QR_SDK/Fiserv_QR_SDK-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
+		FEED80F9B0F769425735ED46BD0B8358 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Fiserv_QR_SDK/Fiserv_QR_SDK-xcframeworks.sh",
+				"${PODS_ROOT}/../../SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Fiserv_QR_SDK/Fiserv_QR_SDK_private.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Fiserv_QR_SDK/Fiserv_QR_SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F9294216385B7AC06702F8AFF8A98CF /* Sources */ = {
+		303DA670382464A17E10640D27F79D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85FF58624A9B07FD48FC740E8186B08 /* Pods-Fiserv_QR_SDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D2C9CBABA5E017595B51CB9CDF71F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5935EE5A9917EA4A4845B2CF601FDB9E /* Sources */ = {
+		5BD4A9F497E787B6C51A52C64548D12E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		773C67883A1FCFF92939C60961FFEACB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D51F803016812DE50A4E5F774D42EA7B /* AVMetadataObject+Extensions.swift in Sources */,
-				901B7902464741B1A28B087447E80F04 /* BarcodeScanner-dummy.m in Sources */,
-				9DE08F6CF9C29FA0DF79E9F0D9317B7C /* BarcodeScannerViewController.swift in Sources */,
-				6CA8AB606EE9B36F041C77DCA1BB6F98 /* CameraViewController.swift in Sources */,
-				0EBCF7B3C88FC6643F0599BF2304FE63 /* FocusViewType.swift in Sources */,
-				B9268EB71AD1FFD0E3D2DD3636ED4EC5 /* Functions.swift in Sources */,
-				8008C0E4602B8ED21EF7295809CA1283 /* HeaderViewController.swift in Sources */,
-				69574212523C2707BA454A34BE87F02B /* MessageViewController.swift in Sources */,
-				7AFDB9138DC6BD605B40670D7F0B309D /* NSLayoutConstraint+Extensions.swift in Sources */,
-				304167D701707C589D6590ED64FFF1C3 /* State.swift in Sources */,
-				24AA71EAF60D29C661D1923970E72AD1 /* TorchMode.swift in Sources */,
-				25F5AFA6DDCBBE08EC0421540E40C4F0 /* UIView+Extensions.swift in Sources */,
-				46862AB80D76D49CAD48B1957764A4CC /* UIViewController+Extensions.swift in Sources */,
-				BFF41A7B33CB1FBFC786249AF1E93D59 /* VideoPermissionService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2DEB9239F936C0606964E1ACD960609 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50CBCDF22C13EE16801478692C209DC5 /* Fiserv_QR_SDK-dummy.m in Sources */,
-				5A9758B42CAB060100CB5B59 /* ImagesResourcesSettings.swift in Sources */,
-				8C68EE7D605E757EBC262B2BBBC2F6FA /* FiservQR_API.swift in Sources */,
-				963B3B1B5EF6F9FC05425B81F1BEBBE4 /* PaymentMethod.swift in Sources */,
-				4ECC40447769570EBDCD7B457B94C921 /* PaymentMethodOption.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0D6EEFE55C998B78D48C90A11BDE361 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1631C6C99A1039EF6B5FDAA049AEE7F /* Pods-Fiserv_QR_SDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD87FD126DADD717EE2C91F167F87836 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				49EDCF44E760A9900AD0F79D51C9A8B9 /* Fiserv_QR_SDK-dummy.m in Sources */,
+				38C10A0A591BD9C2A9C10C0A6CCE185E /* FiservQR_API.swift in Sources */,
+				5140A76978EBF51A070D8AFEFB484D11 /* PaymentMethod.swift in Sources */,
+				0AC28D2240FA784A3A4BD9FD3929A507 /* PaymentMethodOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19DBFD84710E259530BD95DA7E518A1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BarcodeScanner-Localization";
-			target = 2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */;
-			targetProxy = E977909CD1F28B950CD41BA435CB7D14 /* PBXContainerItemProxy */;
-		};
-		1AD5991CC1444CE105740CA706B12D72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BarcodeScanner-BarcodeScanner";
-			target = 02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */;
-			targetProxy = B1F2BCAC61E954885DABC12C84493339 /* PBXContainerItemProxy */;
-		};
-		517729F89C361FB30C9AD01DFBAF5953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Fiserv_QR_SDK;
-			target = 189956E2E7BD7E5E78016BCD6BCFCC51 /* Fiserv_QR_SDK */;
-			targetProxy = 9F63A0230FD199B724DDD85154682E89 /* PBXContainerItemProxy */;
-		};
-		631AF93262F499D9B0304A3066E9BA74 /* PBXTargetDependency */ = {
+		8EA76DDF86EF6561298FF7DF52236943 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Fiserv_QR_SDK-Fiserv_QR_SDK";
 			target = 0B19B9B5E2AE0C746E6BB3B5084A78ED /* Fiserv_QR_SDK-Fiserv_QR_SDK */;
-			targetProxy = 1F94FBB513ED3C8E6331C639B26C2A96 /* PBXContainerItemProxy */;
+			targetProxy = 1F989928137FDF0CD592CBA02AFC447B /* PBXContainerItemProxy */;
 		};
-		916DEE89DE859741242D579E83D0C3CA /* PBXTargetDependency */ = {
+		FE1757EA4989F24D1C1A594518861F3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BarcodeScanner;
-			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
-			targetProxy = C0465C54C8BE323C96CFFCEAC1254D8F /* PBXContainerItemProxy */;
-		};
-		C34571C1AF9837F3AF8FBF2A1A962820 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BarcodeScanner;
-			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
-			targetProxy = FE36673AA697454CFF80F6A3EEE9F2D8 /* PBXContainerItemProxy */;
+			name = Fiserv_QR_SDK;
+			target = 189956E2E7BD7E5E78016BCD6BCFCC51 /* Fiserv_QR_SDK */;
+			targetProxy = E1F99C90A6D0BBB0CCE18638B7B685CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		DA4E75E2E4A78CE04D139270A39EC986 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64F0ACD6312C53C3195AE329434146DA /* Localizable.strings */,
-				F176B1A2CAD17564DD9BF115367F4EFC /* Localizable.strings */,
-				053817C9AD5917D93750F02360DB4AD6 /* Localizable.strings */,
-				F4C5E07ED13CE35A74CD55555F40012E /* Localizable.strings */,
-				97D5068E20174921B3C0842FC4BB75E0 /* Localizable.strings */,
-			);
-			name = Localizable.strings;
-			path = Localization;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		01D02DD0AD2785DAA9E270280E96B357 /* Debug */ = {
+		1F71537E3063FA1A5575316A0502155F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3226CF3D99F85FB3546620482C195A9E /* BarcodeScanner.debug.xcconfig */;
+			baseConfigurationReference = C9CE0FA1104143589D7FCA30F549FEB7 /* Pods-Fiserv_QR_SDK_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MODULEMAP_FILE = Headers/Public/BarcodeScanner/BarcodeScanner.modulemap;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fiserv_QR_SDK_Example/Pods-Fiserv_QR_SDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BarcodeScanner;
-				PRODUCT_NAME = BarcodeScanner;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		01F5080774239B4250543189B52EED41 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3226CF3D99F85FB3546620482C195A9E /* BarcodeScanner.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				IBSC_MODULE = BarcodeScanner;
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_NAME = BarcodeScanner;
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		0DF4913385A1D6E2EB4ABEB3D27CA689 /* Debug */ = {
+		1FEDAE0C3EE5C57B1E386C12F463AE0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B560577CEB9C47EF8979EB614A50FB8 /* Fiserv_QR_SDK.debug.xcconfig */;
+			baseConfigurationReference = BED79565B1FCB220BBD80052F3CE0674 /* Fiserv_QR_SDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -848,9 +475,9 @@
 			};
 			name = Debug;
 		};
-		2C0B999C73A129F840586AD867961942 /* Release */ = {
+		4CD51A3359AA9B781ACE8010E437D00E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 871453150ADB628D34061BE7F784321B /* Fiserv_QR_SDK.release.xcconfig */;
+			baseConfigurationReference = BED79565B1FCB220BBD80052F3CE0674 /* Fiserv_QR_SDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fiserv_QR_SDK";
@@ -863,24 +490,34 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		6A18653D09984CF6ED851FC2B0235D40 /* Debug */ = {
+		4E63E8FD431F796E25AA3007B7A211CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3226CF3D99F85FB3546620482C195A9E /* BarcodeScanner.debug.xcconfig */;
+			baseConfigurationReference = 3C10000AD5C79B1F69FF7591B19E204C /* Fiserv_QR_SDK.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				IBSC_MODULE = BarcodeScanner;
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Fiserv_QR_SDK/Fiserv_QR_SDK-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_NAME = Localization;
+				MODULEMAP_FILE = Headers/Public/Fiserv_QR_SDK/Fiserv_QR_SDK.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Fiserv_QR_SDK;
+				PRODUCT_NAME = Fiserv_QR_SDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -948,60 +585,9 @@
 			};
 			name = Debug;
 		};
-		6AD1B16696A68916E535889DA6E6DB4F /* Release */ = {
+		ADB3167CB2B4521CD134190F2D1141CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 871453150ADB628D34061BE7F784321B /* Fiserv_QR_SDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Fiserv_QR_SDK/Fiserv_QR_SDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MODULEMAP_FILE = Headers/Public/Fiserv_QR_SDK/Fiserv_QR_SDK.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Fiserv_QR_SDK;
-				PRODUCT_NAME = Fiserv_QR_SDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7C50CF9BCAFA27CBCF986E91389AC462 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9CE0FA1104143589D7FCA30F549FEB7 /* Pods-Fiserv_QR_SDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fiserv_QR_SDK_Example/Pods-Fiserv_QR_SDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		83CF6E48C4B29C3B4406CD7D0CF73A8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B560577CEB9C47EF8979EB614A50FB8 /* Fiserv_QR_SDK.debug.xcconfig */;
+			baseConfigurationReference = 3C10000AD5C79B1F69FF7591B19E204C /* Fiserv_QR_SDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fiserv_QR_SDK";
@@ -1014,9 +600,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		8B81D27A41B23908DCB1F3F9117D0C3F /* Debug */ = {
+		DBC2B82EA8BBC600DFEA3F2869349EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B99000F07FC6200E8E032AFC3B51AD46 /* Pods-Fiserv_QR_SDK_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1038,65 +624,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		9981E32C6C808AF115AB5346C93A37F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6137080DDD01C0F85A4DF5D5A68DE71B /* BarcodeScanner.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				IBSC_MODULE = BarcodeScanner;
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_NAME = BarcodeScanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C57F9C761D89B2CB96DB1BAACBD35817 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6137080DDD01C0F85A4DF5D5A68DE71B /* BarcodeScanner.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MODULEMAP_FILE = Headers/Public/BarcodeScanner/BarcodeScanner.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BarcodeScanner;
-				PRODUCT_NAME = BarcodeScanner;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DEE4A837FEEA51DAF1C713D4C507D60B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6137080DDD01C0F85A4DF5D5A68DE71B /* BarcodeScanner.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
-				IBSC_MODULE = BarcodeScanner;
-				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_NAME = Localization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1153,7 +680,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1162,29 +690,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A6DB4E64327EAC313AA34FCAC7456EE /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+		05F0C7857FAF2A44A6C818044FA04809 /* Build configuration list for PBXNativeTarget "Pods-Fiserv_QR_SDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A18653D09984CF6ED851FC2B0235D40 /* Debug */,
-				DEE4A837FEEA51DAF1C713D4C507D60B /* Release */,
+				DBC2B82EA8BBC600DFEA3F2869349EB7 /* Debug */,
+				1F71537E3063FA1A5575316A0502155F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33EA8B8E09A6AFF97A39FC1C3D499078 /* Build configuration list for PBXNativeTarget "Pods-Fiserv_QR_SDK_Example" */ = {
+		32BE1D01BED886229786F38D64EC1E09 /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK-Fiserv_QR_SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B81D27A41B23908DCB1F3F9117D0C3F /* Debug */,
-				7C50CF9BCAFA27CBCF986E91389AC462 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C9CC9167D13F25A578674C1A0C95A60 /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK-Fiserv_QR_SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83CF6E48C4B29C3B4406CD7D0CF73A8D /* Debug */,
-				2C0B999C73A129F840586AD867961942 /* Release */,
+				4CD51A3359AA9B781ACE8010E437D00E /* Debug */,
+				ADB3167CB2B4521CD134190F2D1141CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1198,29 +717,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C1F4A056F4F1BBDBF828029FBDBC28A /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+		F16C790B699133FE91E06378FA58BA07 /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01D02DD0AD2785DAA9E270280E96B357 /* Debug */,
-				C57F9C761D89B2CB96DB1BAACBD35817 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9F1E085419F8E195D9568C9E37F0D5E /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01F5080774239B4250543189B52EED41 /* Debug */,
-				9981E32C6C808AF115AB5346C93A37F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0587EF62D20B78F16A2C74999F0170B /* Build configuration list for PBXNativeTarget "Fiserv_QR_SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DF4913385A1D6E2EB4ABEB3D27CA689 /* Debug */,
-				6AD1B16696A68916E535889DA6E6DB4F /* Release */,
+				1FEDAE0C3EE5C57B1E386C12F463AE0B /* Debug */,
+				4E63E8FD431F796E25AA3007B7A211CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

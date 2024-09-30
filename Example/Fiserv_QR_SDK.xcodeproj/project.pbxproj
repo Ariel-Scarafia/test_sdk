@@ -633,14 +633,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Fiserv_QR_SDK_Example/Pods-Fiserv_QR_SDK_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/BarcodeScanner.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/Localization.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Fiserv_QR_SDK/Fiserv_QR_SDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BarcodeScanner.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localization.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fiserv_QR_SDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
