@@ -18,7 +18,7 @@ struct QRScannerView: View {
     @State private var errorMessage: String = ""
     @State private var showError: Bool = false
     
-    @Environment(\.openURL) private var openURL
+    @SwiftUI.Environment(\.openURL) private var openURL
 
     var body: some View {
         NavigationStack {

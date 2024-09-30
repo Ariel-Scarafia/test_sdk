@@ -7,13 +7,10 @@
     "Aguarde unos segundos" : {
 
     },
+    "Cancel" : {
+
+    },
     "Estamos procesando el pago" : {
-
-    },
-    "It appears your camera may not be available" : {
-
-    },
-    "It looks like this device doesn't support the DataScannerViewController" : {
 
     },
     "payment_approved" : {
@@ -70,6 +67,9 @@
           }
         }
       }
+    },
+    "Settigns" : {
+
     }
   },
   "version" : "1.0"

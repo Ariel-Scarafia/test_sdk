@@ -46,7 +46,7 @@ class QRScannerViewController: UIViewController {
         super.viewDidLoad()
         
 //        dataScannerVC.delegate = self
-        let dataScannerView = QRScannerView(scannerViewDelegate: self)
+        let dataScannerView = QRScannerView()
             .environmentObject(QRScannerViewModel())
         
         let dataScannerVC = UIHostingController(rootView: dataScannerView)
@@ -94,15 +94,15 @@ class QRScannerViewController: UIViewController {
     }
 }
 
-extension QRScannerViewController: QRScannerViewDelegate {
-    func didFoundData(_ data: String) {
-        //inspect data, maybe decode to a value
-        print("**** Data scanned is \(data)")
-        if !data.isEmpty {
-            qrFound(data)
-        }
-    }
-}
+//extension QRScannerViewController: QRScannerViewDelegate {
+//    func didFoundData(_ data: String) {
+//        //inspect data, maybe decode to a value
+//        print("**** Data scanned is \(data)")
+//        if !data.isEmpty {
+//            qrFound(data)
+//        }
+//    }
+//}
 
 extension QRScannerViewController: DataScannerViewControllerDelegate {
     
