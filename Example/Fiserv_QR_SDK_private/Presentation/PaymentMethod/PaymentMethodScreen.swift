@@ -65,11 +65,6 @@ struct PaymentMethodScreen: View {
                     .padding(.bottom)
                     .padding(.top, 30)
                 }
-                .padding(.top, 30)
-                .background(content: {
-                    Rectangle()
-                        .foregroundStyle(ColorSettings.gradientPrimary)
-                })
             }
             .navigationDestination(isPresented: $paymentMethodViewModel.goToAwaitingPayment) {
                 ProcessingPayment()

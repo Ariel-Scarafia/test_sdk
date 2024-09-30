@@ -54,7 +54,11 @@ struct QRScannerView: View {
                 PaymentMethodScreen(paymentRequest: qrScannerViewModel.paymentRequest)
                     .environmentObject(PaymentMethodViewModel())
             }
+            .onAppear {
+                qrScannerViewModel.resetViewModel()
+            }
         }
+        
     }
         
 }

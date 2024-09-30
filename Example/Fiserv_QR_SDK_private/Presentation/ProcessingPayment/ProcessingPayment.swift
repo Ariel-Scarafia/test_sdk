@@ -33,13 +33,6 @@ struct ProcessingPayment: View {
                             .foregroundStyle(.white)
                     })
                 }
-                .frame(width: UIScreen.main.bounds.width)
-                .padding(.horizontal, 15)
-                .padding(.vertical, 30)
-                .background(content: {
-                    Rectangle()
-                        .foregroundStyle(ColorSettings.gradientPrimary)
-                })
             }
         }
         .navigationBarBackButtonHidden()

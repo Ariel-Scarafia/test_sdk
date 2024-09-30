@@ -21,7 +21,7 @@
   "source_files": "SDK_Sources/Interface/**/*",
   "resource_bundles": {
     "Fiserv_QR_SDK": [
-      "SDK_Sources/Interface/**/*"
+      "SDK_Sources/Interface/Resources/**/*"
     ]
   }
 }

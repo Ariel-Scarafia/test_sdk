@@ -47,4 +47,9 @@ class QRScannerViewModel: ObservableObject {
                 )
             ]
     )
+    
+    func resetViewModel() {
+        goToPaymentMethod = false
+        scannedText = ""
+    }
 }
