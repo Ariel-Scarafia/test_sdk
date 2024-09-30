@@ -34,10 +34,6 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'SDK_Sources/Interface/**/*'
   
-  s.resource_bundles = {
-      'Fiserv_QR_SDK' => ['Resources/Internationalization/*.xcstrings']
-  }
-  
   # s.resource_bundles = {
   #   'Fiserv_QR_SDK' => ['Fiserv_QR_SDK/Assets/*.png']
   # }
