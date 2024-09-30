@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Fiserv_QR_SDK_private-Swift.h</key>
 		<data>
-		o/Iqiq65zBIYQLIkb6bXFqsSJas=
+		vWIo7MSe2GpZ+5r9PEmqGq5AZ6E=
 		</data>
 		<key>Headers/Fiserv_QR_SDK_private.h</key>
 		<data>
@@ -14,32 +14,49 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JQiaatNLjxUaTbJu8IDFHTST/lM=
+		H5nzfu00x3yrNvoXHOCW9eqXuiQ=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jXwmXDWfQgPlbmBzUKOzoxcGEtQ=
+		YY8i3qS3r5Wrlh46WDL91Y2WtbU=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		a3Rv80KfdDk8TbUlIxk9hYKmu7M=
+		ffOc8+RI+wvrfsMWDtoWYwTdG4E=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		NY+Z7alekLu9BNw9+KbNCQtqI/o=
+		m/2SUKj4WHejBVXwdRmPSA2Xoxk=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		a3Rv80KfdDk8TbUlIxk9hYKmu7M=
+		ffOc8+RI+wvrfsMWDtoWYwTdG4E=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eh/A+ho8AsWfK+eKHkHzpdYhoz0=
+		FzwAsWq80zWSTrw87v+jquzkddk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		JwU0ckPqxXacOPd/aCynyxYhASA=
 		</data>
+		<key>Montserrat.ttf</key>
+		<data>
+		3r0Q5X+wfdJBh8QWeYhRKUScFDU=
+		</data>
+		<key>OpenSans.ttf</key>
+		<data>
+		7N8dWMCTKndcibWtSKegqq1m3k8=
+		</data>
+		<key>es-419.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9V6hFXQtP+jm4luZQrP4M5RPUew=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -47,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2GN0FNu8HgV7IlgRBGKoWYDvJFh317LNY0/+919KeN0=
+			ahdb/aCw9OW0z4JQY9BczPshAUeDXcrcwaYEIStiASU=
 			</data>
 		</dict>
 		<key>Headers/Fiserv_QR_SDK_private.h</key>
@@ -61,35 +78,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HUsh5ks1hW2w14g79/zj3KatgP0DUtM/2AWjnTdtY4=
+			DF/OVgH9+yXBrYLqUnhqrQXNkoKnTs0RYguo49mQt30=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			md4S9XkPjZGMTE442rnNgrGDf14f23aC47sgAklIyHI=
+			S1k321J0mNTE5l0ywbMImlBldJY0R1iW89OHKbeOWiM=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VF20hwyNCkWEivDg/4nS9LDcWhpXDwXSQOLd72J9fxo=
+			L9+xSAnrtRANUEdVxBvQwO3RmHA9jFpY7wXMoxoVOgU=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			md4S9XkPjZGMTE442rnNgrGDf14f23aC47sgAklIyHI=
+			S1k321J0mNTE5l0ywbMImlBldJY0R1iW89OHKbeOWiM=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e6vJbP5Ez0zdhypid0rMjZRf1s66DObqEa//X82+iwQ=
+			0oqcGauziyQfs8msoDnQf0VC3jNj9EkUGN8LD6MPMSk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -98,6 +115,29 @@
 			<data>
 			UsOSURwcleIRYx+7w3dja0iIqOr1WQwkzYNMhiHs8mc=
 			</data>
+		</dict>
+		<key>Montserrat.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5bGj+6xuW/nyCGD5olSr45JAQ59EVWjYzTdIJ4nl3Kw=
+			</data>
+		</dict>
+		<key>OpenSans.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E3RLvAefD0kuT7OxShXSQrjZYA+qzUI9WM35N/6nzms=
+			</data>
+		</dict>
+		<key>es-419.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9NUHMCP2HPYu5P1hH9UXy5fK6fUmTJDHAjFt2BjUmoI=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

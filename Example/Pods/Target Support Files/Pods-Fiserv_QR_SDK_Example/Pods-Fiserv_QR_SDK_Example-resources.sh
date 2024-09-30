@@ -99,10 +99,12 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/BarcodeScanner.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/Localization.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Fiserv_QR_SDK/Fiserv_QR_SDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/BarcodeScanner.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/Localization.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Fiserv_QR_SDK/Fiserv_QR_SDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

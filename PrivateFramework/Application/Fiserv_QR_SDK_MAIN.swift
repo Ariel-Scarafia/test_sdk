@@ -12,7 +12,7 @@ import AVFoundation
 public class Fiserv_QR_SDK_MAIN {
     
     static private (set) var apiKey: String = ""
-
+    
     static private (set) var paymentOptions: [PaymentMethodOption] = [
         PaymentMethodOption(
             id: 0,
@@ -56,6 +56,15 @@ public class Fiserv_QR_SDK_MAIN {
     static public func getPaymentView() -> some View {
         paymentRequest.paymentOptions = paymentOptions
         return PaymentMethodScreen(paymentRequest: paymentRequest)
+    }
+    
+    static public func getScannerView() -> some View {
+        return QRScannerView(scannerViewDelegate: nil)
+            .environmentObject(QRScannerViewModel())
+    }
+    
+    static public func getScannerViewController() -> UIViewController {
+        return QRScannerViewController()
     }
     
     static public func hasCameraPermission() async -> Bool {

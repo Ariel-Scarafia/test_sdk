@@ -24,17 +24,22 @@ extension String {
     public func localized() -> String {
         let value = NSLocalizedString(self, comment: "")
         
-        let defaultLanguage = "es-LA"
+        print("Localized value is: \(value)")
+        let defaultLanguage = "es"
         
         if value != self || NSLocale.preferredLanguages.first == defaultLanguage {
             // return localized string
             return value
         }
 
+        print("Main Bundle is: ")
          // Load resource for default language to be used as fall back
         guard let path = Bundle.main.path(forResource: defaultLanguage, ofType: "lproj"), let bundle = Bundle(path: path) else {
+            print("Main Bundle doesn't exist")
             return value
         }
+        
+        print("\(path)")
         
         return NSLocalizedString(self, bundle: bundle, comment: "")
     }

@@ -9,10 +9,18 @@
 import SwiftUI
 
 struct PaymentMethodCarouselCell: View {
+    var width = 212.0
+    var height = 96.0
     @State var paymentOption: PaymentMethodOption
     var body: some View {
-        Image(paymentOption.cardLogo ?? "")
-            .frame(width: 212, height: 96)
+        VStack {
+            Image(paymentOption.cardLogo ?? "")
+            Text(paymentOption.cardHolder)
+                .background(Color.red)
+                .bold()
+                .font(.title)
+        }
+        .frame(width: width, height: height)
     }
 }
 

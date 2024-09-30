@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios14-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fiserv_QR_SDK_private
+// swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fiserv_QR_SDK_private
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 @_exported import Fiserv_QR_SDK_private
@@ -8,6 +8,7 @@ import Foundation
 import Swift
 import SwiftUI
 import UIKit
+import VisionKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -17,12 +18,22 @@ import _SwiftConcurrencyShims
   public static func setPaymentOptions(_ paymentOptions: Swift.String)
   public static func getPaymentView() -> some SwiftUI.View
   
+  public static func getScannerView() -> some SwiftUI.View
+  
+  public static func getScannerViewController() -> UIKit.UIViewController
   #if compiler(>=5.3) && $AsyncAwait
   public static func hasCameraPermission() async -> Swift.Bool
   #endif
   @objc deinit
 }
+
 @_hasMissingDesignatedInitializers public class Report {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class ImagesResources {
+  public static func setProcessingPaymentImage(_ imageName: Swift.String)
+  public static func setPaymentApprovedImage(_ imageName: Swift.String)
+  public static func setPaymentRejectedImage(_ imageName: Swift.String)
   @objc deinit
 }
 public protocol InjectionKey {
@@ -31,8 +42,23 @@ public protocol InjectionKey {
   static var singletonValue: Self.Value { get set }
 }
 
+extension Swift.String {
+  public func localized() -> Swift.String
+  public func localized(params: [Swift.String]) -> Swift.String
+}
+
 extension Swift.Dictionary {
   public mutating func add(_ dictionary: [Key : Value])
+}
+
+@_hasMissingDesignatedInitializers public class ColorSettings {
+  public static func setPrimaryColor(_ color: SwiftUI.Color)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FontSettings {
+  public static func setMainFont(name mainFont: Swift.String)
+  public static func setSecondaryFont(name secondaryFont: Swift.String)
+  @objc deinit
 }
 
 

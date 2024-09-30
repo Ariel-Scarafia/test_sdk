@@ -19,6 +19,11 @@
   },
   "vendored_frameworks": "SDK_Sources/Framework/Fiserv_QR_SDK_private.xcframework",
   "source_files": "SDK_Sources/Interface/**/*",
+  "resource_bundles": {
+    "Fiserv_QR_SDK": [
+      "Resources/Internationalization/*.xcstrings"
+    ]
+  },
   "dependencies": {
     "BarcodeScanner": [
       "4.1.3"

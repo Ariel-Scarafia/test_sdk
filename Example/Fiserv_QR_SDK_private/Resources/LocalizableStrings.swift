@@ -12,4 +12,7 @@ enum LocalizableStrings: String, CaseIterable {
     case payment_methods_youll_pay_to
     case payment_methods_select_payment_method
     case payment_methods_pay
+    
+    case payment_approved
+    case payment_rejected
 }
