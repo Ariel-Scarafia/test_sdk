@@ -7,47 +7,47 @@
 //
 
 import SwiftUI
-import VisionKit
-
-protocol QRScannerViewDelegate {
-    func didFoundData(_ data: String)
-}
+import AVKit
 
 struct QRScannerView: View {
     @EnvironmentObject var qrScannerViewModel: QRScannerViewModel
     
-    @State var isShowingScanner = true
-    @State private (set) var scannedText = "" {
-        didSet {
-            print("**** Scanned value found: \(scannedText)")
-            scannerViewDelegate?.didFoundData(scannedText)
-        }
-    }
+    @State private var cameraPermission: CameraPermission = .idle
+    @State private var session: AVCaptureSession = .init()
+    @State private var qrValueOutput: AVCaptureMetadataOutput = .init()
+    @State private var errorMessage: String = ""
+    @State private var showError: Bool = false
     
-    let scannerViewDelegate: QRScannerViewDelegate?
-    
+    @Environment(\.openURL) private var openURL
+
     var body: some View {
-        
         NavigationStack {
             Group {
-                if DataScannerViewController.isSupported && DataScannerViewController.isAvailable {
-                    ZStack(alignment: .bottom) {
-                        
-                        DataScannerRepresentable(
-                            shouldStartScanning: $isShowingScanner,
-                            scannedText: $qrScannerViewModel.scannedText,
-                            dataToScanFor: [.barcode(symbologies: [.qr])]
-                        )
-                        
-                        Text("Código escaneado: " + qrScannerViewModel.scannedText)
-                            .padding()
-                            .background(Color.white)
-                            .foregroundColor(.black)
+                ZStack(alignment: .bottom) {
+                    GeometryReader {
+                        let size = $0.size
+                        let frameSize = CGSize(width: size.width, height: size.height)
+                        CameraView(frameSize: frameSize, session: $session)
                     }
-                } else if !DataScannerViewController.isSupported {
-                    Text("It looks like this device doesn't support the DataScannerViewController")
-                } else {
-                    Text("It appears your camera may not be available")
+                    
+                    Text("Código escaneado: " + qrScannerViewModel.scannedText)
+                        .padding()
+                        .background(Color.white)
+                        .foregroundColor(.black)
+                }
+            }
+            .alert(errorMessage, isPresented: $showError) {
+                if cameraPermission == .denied {
+                    Button("Settigns") {
+                        let settingsString = UIApplication.openSettingsURLString
+                        if let settingsURL = URL(string: settingsString) {
+                            openURL(settingsURL)
+                        }
+                    }
+                
+                    Button("Cancel", role: .cancel) {
+                        
+                    }
                 }
             }
             .navigationDestination(isPresented: $qrScannerViewModel.goToPaymentMethod) {
@@ -55,14 +55,86 @@ struct QRScannerView: View {
                     .environmentObject(PaymentMethodViewModel())
             }
             .onAppear {
-                qrScannerViewModel.resetViewModel()
+                checkCameraPermission()
+            }
+            .onDisappear {
+                session.stopRunning()
             }
         }
         
     }
+    
+    func checkCameraPermission() {
+        Task {
+            switch AVCaptureDevice.authorizationStatus(for: .video) {
+            case .authorized:
+                cameraPermission = .approved
+            case .notDetermined:
+                if await AVCaptureDevice.requestAccess(for: .video) {
+                    cameraPermission = .approved
+                    
+                    if session.inputs.isEmpty {
+                        setupCamera()
+                    } else {
+                        reactivateCamera()
+                    }
+                    
+                } else {
+                    cameraPermission = .denied
+                    presentError("Se necesitan permisos de cámara para poder utilizar la función de pagos con QR")
+                }
+            case .denied, .restricted:
+                cameraPermission = .denied
+                presentError("Se necesitan permisos de cámara para poder utilizar la función de pagos con QR")
+            default: break
+            }
+        }
+    }
         
+    func presentError(_ errorMessage: String) {
+        self.errorMessage = errorMessage
+        showError = true
+    }
+    
+    func setupCamera() {
+        do {
+            guard let device = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera], mediaType: .video, position: .back).devices.first else {
+                presentError("UNKWON ERROR")
+                return
+            }
+            
+            let input = try AVCaptureDeviceInput(device: device)
+            
+            guard session.canAddInput(input), session.canAddOutput(qrValueOutput) else {
+                presentError("UNKWON ERROR")
+                return
+            }
+            
+            session.beginConfiguration()
+            session.addInput(input)
+            session.addOutput(qrValueOutput)
+
+            qrValueOutput.metadataObjectTypes = [.qr]
+            
+            qrValueOutput.setMetadataObjectsDelegate(qrScannerViewModel, queue: .main)
+            session.commitConfiguration()
+            
+            DispatchQueue.global(qos: .background).async {
+                session.startRunning()
+            }
+        } catch {
+            presentError(error.localizedDescription)
+        }
+        
+    }
+    
+    func reactivateCamera() {
+        DispatchQueue.global(qos: .background).async {
+            session.startRunning()
+        }
+    }
 }
 
 #Preview {
-    QRScannerView(scannerViewDelegate: nil)
+    QRScannerView()
 }

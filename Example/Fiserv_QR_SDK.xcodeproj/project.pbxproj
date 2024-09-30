@@ -48,6 +48,8 @@
 		5A9016092C9C90E400F54259 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9016082C9C90E400F54259 /* QRScannerView.swift */; };
 		5A9758A82CAAE43500CB5B59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9758A62CAAE42F00CB5B59 /* Images.xcassets */; };
 		5A9758AA2CAAE47E00CB5B59 /* ImagesResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9758A92CAAE47E00CB5B59 /* ImagesResources.swift */; };
+		5A9758B92CAB3AB300CB5B59 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9758B82CAB3AB300CB5B59 /* CameraView.swift */; };
+		5A9758BB2CAB3D8A00CB5B59 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9758BA2CAB3D8A00CB5B59 /* CameraPermission.swift */; };
 		5ABE9E962CA5BEB800E7C0C7 /* QRScannerVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -116,6 +118,8 @@
 		5A9016082C9C90E400F54259 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		5A9758A62CAAE42F00CB5B59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A9758A92CAAE47E00CB5B59 /* ImagesResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesResources.swift; sourceTree = "<group>"; };
+		5A9758B82CAB3AB300CB5B59 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5A9758BA2CAB3D8A00CB5B59 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerVIewModel.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Fiserv_QR_SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiserv_QR_SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -290,6 +294,7 @@
 				5A469D912CA4026800D515A9 /* QRScannerViewController.swift */,
 				5A469D932CA4102D00D515A9 /* DataScannerRepresentable.swift */,
 				5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */,
+				5A9758B82CAB3AB300CB5B59 /* CameraView.swift */,
 			);
 			path = QRScanner;
 			sourceTree = "<group>";
@@ -318,6 +323,7 @@
 			children = (
 				5A0B518C2C5D13FA00314837 /* PaymentMethod.swift */,
 				5A0B51922C5D189400314837 /* PaymentMethodOption.swift */,
+				5A9758BA2CAB3D8A00CB5B59 /* CameraPermission.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -682,6 +688,7 @@
 				5A0B51662C5AA75500314837 /* APIProtocol.swift in Sources */,
 				5A9758AA2CAAE47E00CB5B59 /* ImagesResources.swift in Sources */,
 				5A469D7F2CA3325700D515A9 /* LocalizableStrings+Extension.swift in Sources */,
+				5A9758B92CAB3AB300CB5B59 /* CameraView.swift in Sources */,
 				5A0B51632C5AA75500314837 /* DIFramework.swift in Sources */,
 				5A0B516C2C5AA75500314837 /* Encodable+Extension.swift in Sources */,
 				5ABE9E962CA5BEB800E7C0C7 /* QRScannerVIewModel.swift in Sources */,
@@ -705,6 +712,7 @@
 				5A0B51932C5D189400314837 /* PaymentMethodOption.swift in Sources */,
 				5A469D942CA4102D00D515A9 /* DataScannerRepresentable.swift in Sources */,
 				5A0B51892C5C06C400314837 /* PaymentMethodScreen.swift in Sources */,
+				5A9758BB2CAB3D8A00CB5B59 /* CameraPermission.swift in Sources */,
 				5A04C96C2CA750D9007F861F /* PaymentConfirmation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import AVKit
 
-class QRScannerViewModel: ObservableObject {
+class QRScannerViewModel: NSObject, ObservableObject {
     
     @Published var scannedText: String = "" {
         didSet {
@@ -51,5 +52,15 @@ class QRScannerViewModel: ObservableObject {
     func resetViewModel() {
         goToPaymentMethod = false
         scannedText = ""
+    }
+}
+
+extension QRScannerViewModel: AVCaptureMetadataOutputObjectsDelegate {
+    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+        if let metaObject = metadataObjects.first {
+            guard let readableObject = metaObject as? AVMetadataMachineReadableCodeObject else { return }
+            guard let scannedCode = readableObject.stringValue else { return }
+            scannedText = scannedCode
+        }
     }
 }
