@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 //        self.addChildViewController(viewCtrl)
 //        view.addSubview(viewCtrl.view)
         
-        var loginButton : UIButton = {
+        let loginButton : UIButton = {
                 let button = UIButton(type: .system)
                 button.setTitle("Open Scanner", for: .normal)
                 button.translatesAutoresizingMaskIntoConstraints = false

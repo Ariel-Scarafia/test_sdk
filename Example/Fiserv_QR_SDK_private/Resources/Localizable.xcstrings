@@ -7,9 +7,6 @@
     "Aguarde unos segundos" : {
 
     },
-    "Elige uno de los medios de pago" : {
-
-    },
     "Estamos procesando el pago" : {
 
     },
@@ -17,9 +14,6 @@
 
     },
     "It looks like this device doesn't support the DataScannerViewController" : {
-
-    },
-    "Pagar" : {
 
     },
     "payment_approved" : {
@@ -76,9 +70,6 @@
           }
         }
       }
-    },
-    "Vas a pagarle a" : {
-
     }
   },
   "version" : "1.0"
