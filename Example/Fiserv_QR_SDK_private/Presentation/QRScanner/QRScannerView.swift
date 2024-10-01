@@ -22,19 +22,13 @@ struct QRScannerView: View {
 
     var body: some View {
         NavigationStack {
-            Group {
-                ZStack(alignment: .bottom) {
-                    GeometryReader {
-                        let size = $0.size
-                        let frameSize = CGSize(width: size.width, height: size.height)
-                        CameraView(frameSize: frameSize, session: $session)
-                    }
-                    
-                    Text("Código escaneado: " + qrScannerViewModel.scannedText)
-                        .padding()
-                        .background(Color.white)
-                        .foregroundColor(.black)
-                }
+            ZStack(alignment: .bottom) {
+                CameraView(session: $session)
+                
+                Text("Código escaneado: " + qrScannerViewModel.scannedText)
+                    .padding()
+                    .background(Color.white)
+                    .foregroundColor(.black)
             }
             .alert(errorMessage, isPresented: $showError) {
                 if cameraPermission == .denied {
@@ -69,6 +63,13 @@ struct QRScannerView: View {
             switch AVCaptureDevice.authorizationStatus(for: .video) {
             case .authorized:
                 cameraPermission = .approved
+                
+                if session.inputs.isEmpty {
+                    setupCamera()
+                } else {
+                    reactivateCamera()
+                }
+                
             case .notDetermined:
                 if await AVCaptureDevice.requestAccess(for: .video) {
                     cameraPermission = .approved
@@ -98,15 +99,15 @@ struct QRScannerView: View {
     
     func setupCamera() {
         do {
-            guard let device = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera], mediaType: .video, position: .back).devices.first else {
-                presentError("UNKWON ERROR")
+            guard let device = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera, .builtInUltraWideCamera], mediaType: .video, position: .back).devices.first else {
+                presentError("UNKWON DEVICE ERROR")
                 return
             }
             
             let input = try AVCaptureDeviceInput(device: device)
             
             guard session.canAddInput(input), session.canAddOutput(qrValueOutput) else {
-                presentError("UNKWON ERROR")
+                presentError("UNKWON I/O ERROR")
                 return
             }
             
@@ -137,4 +138,5 @@ struct QRScannerView: View {
 
 #Preview {
     QRScannerView()
+        .environmentObject(QRScannerViewModel())
 }

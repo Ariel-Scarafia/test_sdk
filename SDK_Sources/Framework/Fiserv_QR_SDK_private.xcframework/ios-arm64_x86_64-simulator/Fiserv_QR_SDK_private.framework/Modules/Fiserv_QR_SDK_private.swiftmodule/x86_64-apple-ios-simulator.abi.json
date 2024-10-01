@@ -2489,8 +2489,22 @@
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/CameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/CameraView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/CameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 723,
+      "offset": 669,
       "length": 4,
       "value": "true"
     },
@@ -2798,58 +2812,58 @@
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 831,
       "length": 21,
       "value": "\"Código escaneado: \""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1158,
       "length": 10,
       "value": "\"Settigns\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1750,
+      "offset": 1469,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2972,
+      "offset": 2885,
       "length": 82,
       "value": "\"Se necesitan permisos de cámara para poder utilizar la función de pagos con QR\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3185,
+      "offset": 3098,
       "length": 82,
       "value": "\"Se necesitan permisos de cámara para poder utilizar la función de pagos con QR\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3444,
+      "offset": 3357,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3688,
-      "length": 14,
-      "value": "\"UNKWON ERROR\""
+      "offset": 3626,
+      "length": 21,
+      "value": "\"UNKWON DEVICE ERROR\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3950,
-      "length": 14,
-      "value": "\"UNKWON ERROR\""
+      "offset": 3895,
+      "length": 18,
+      "value": "\"UNKWON I\/O ERROR\""
     },
     {
       "filePath": "@__swiftmacro_21Fiserv_QR_SDK_private33_9A8B45BB1009911E2F629D48C55351A0Ll7PreviewfMf0_.swift",
@@ -2863,7 +2877,7 @@
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 3,
-      "value": "138"
+      "value": "139"
     },
     {
       "filePath": "@__swiftmacro_21Fiserv_QR_SDK_private33_9A8B45BB1009911E2F629D48C55351A0Ll7PreviewfMf0_.swift",

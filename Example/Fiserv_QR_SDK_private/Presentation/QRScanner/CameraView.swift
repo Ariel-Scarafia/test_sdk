@@ -11,16 +11,14 @@ import SwiftUI
 import AVKit
 
 struct CameraView: UIViewRepresentable {
-    var frameSize: CGSize
-    
     @Binding var session: AVCaptureSession
     
     func makeUIView(context: Context) -> UIView {
-        let view = UIViewType(frame: CGRect(origin: .zero, size: frameSize))
+        let view = UIViewType()
         view.backgroundColor = .clear
         
         let cameraLayer = AVCaptureVideoPreviewLayer(session: session)
-        cameraLayer.frame = .init(origin: .zero, size: frameSize)
+        cameraLayer.frame = .init(origin: .zero, size: CGSize(width: 360, height: 640))
         cameraLayer.videoGravity = .resizeAspectFill
         cameraLayer.masksToBounds = true
         view.layer.addSublayer(cameraLayer)
