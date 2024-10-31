@@ -47,7 +47,6 @@ class QRScannerViewController: UIViewController {
         
 //        dataScannerVC.delegate = self
         let dataScannerView = QRScannerView()
-            .environmentObject(QRScannerViewModel())
         
         let dataScannerVC = UIHostingController(rootView: dataScannerView)
         //                self.addChildViewController(scannerViewController)

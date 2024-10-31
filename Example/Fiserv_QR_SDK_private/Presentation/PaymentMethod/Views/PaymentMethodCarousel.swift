@@ -26,30 +26,35 @@ struct PaymentMethodCarousel: View {
         let itemsTemp = itemsArray.flatMap { $0.map { $0 } }
         VStack (spacing: 15) {
             ScrollView(.horizontal) {
-                HStack(spacing: 20) {
+                HStack(spacing: 0) {
                     ForEach(0..<itemsTemp.count, id: \.self) { index in
                         let item = itemsTemp[index]
                         VStack {
-                            PaymentMethodCarouselCell(
+//                            PaymentMethodCarouselCell(
+                            CardView(
                                 width: cellWidth,
                                 height: cellHeight,
-                                paymentOption: item
+                                typeOfCard: "CRÉDITO",
+                                cardHolder: item.cardHolder,
+                                cardLogo: "icon_VISA",
+                                cardNumber: item.numberCardComplete
+//                                paymentOption: item
                             )
-                            .background(Color.blue)
+                            .padding(.horizontal, (widthDifference)/2)
+                            .offset(x: getScrollOffset(for: index, widthDifference: widthDifference))
                         }
                     }
                 }
                 .scrollTargetLayout()
             }
             .frame(height: cellHeight)
-            .contentMargins(widthDifference/2, for: .scrollContent)
-            .scrollTargetBehavior(.viewAligned)
+            .scrollTargetBehavior(.paging)
             .scrollPosition(id: $activeCardIndex, anchor: .center)
             .scrollIndicators(.hidden)
             .onAppear {
                 self.itemsArray = [paymentMethods, paymentMethods, paymentMethods]
                 // start at the first item of the second colors array
-                activeCardIndex = itemsArray.count
+                activeCardIndex = paymentMethods.count
             }
             .onChange(of: activeCardIndex) {
                 guard let scrollPosition = activeCardIndex else {return}
@@ -95,6 +100,16 @@ struct PaymentMethodCarousel: View {
                         .frame(width: 15)
                 }
             }
+        }
+    }
+    
+    private func getScrollOffset(for index: Int, widthDifference: CGFloat) -> CGFloat {
+        if index == activeCardIndex {
+            return 0
+        } else if index < (activeCardIndex ?? paymentMethods.count) {
+            return widthDifference * 0.75
+        } else {
+            return -widthDifference * 0.75
         }
     }
 }

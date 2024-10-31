@@ -60,7 +60,6 @@ public class Fiserv_QR_SDK_MAIN {
     
     static public func getScannerView() -> some View {
         return QRScannerView()
-            .environmentObject(QRScannerViewModel())
     }
     
     static public func getScannerViewController() -> UIViewController {

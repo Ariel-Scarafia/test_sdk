@@ -16,10 +16,14 @@ struct PaymentMethodCarouselCell: View {
         VStack {
             Image(paymentOption.cardLogo ?? "")
             Text(paymentOption.cardHolder)
-                .background(Color.red)
+                .foregroundStyle(.white)
+//                .background(Color.red)
                 .bold()
                 .font(.title)
         }
+        .background(
+            CardBackgroundView()
+        )
         .frame(width: width, height: height)
     }
 }

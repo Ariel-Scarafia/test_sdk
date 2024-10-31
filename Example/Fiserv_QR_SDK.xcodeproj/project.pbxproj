@@ -51,6 +51,8 @@
 		5A9758B92CAB3AB300CB5B59 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9758B82CAB3AB300CB5B59 /* CameraView.swift */; };
 		5A9758BB2CAB3D8A00CB5B59 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9758BA2CAB3D8A00CB5B59 /* CameraPermission.swift */; };
 		5ABE9E962CA5BEB800E7C0C7 /* QRScannerVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */; };
+		5AC4344F2CD41A8400DFE77E /* CardBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4344E2CD41A8400DFE77E /* CardBackgroundView.swift */; };
+		5AC434512CD41BE200DFE77E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC434502CD41BE200DFE77E /* CardView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -121,6 +123,8 @@
 		5A9758B82CAB3AB300CB5B59 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		5A9758BA2CAB3D8A00CB5B59 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerVIewModel.swift; sourceTree = "<group>"; };
+		5AC4344E2CD41A8400DFE77E /* CardBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackgroundView.swift; sourceTree = "<group>"; };
+		5AC434502CD41BE200DFE77E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Fiserv_QR_SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiserv_QR_SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -280,6 +284,7 @@
 		5A0B51852C5C067100314837 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				5AC4344D2CD41A5300DFE77E /* GenericViews */,
 				5A469D952CA43F3400D515A9 /* ProcessingPayment */,
 				5A0B51872C5C069F00314837 /* PaymentMethod */,
 				5A0B51862C5C067D00314837 /* QRScanner */,
@@ -314,6 +319,7 @@
 			children = (
 				5A0B518E2C5D169D00314837 /* PaymentMethodCarousel.swift */,
 				5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */,
+				5AC434502CD41BE200DFE77E /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -374,6 +380,14 @@
 				5A9758A62CAAE42F00CB5B59 /* Images.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AC4344D2CD41A5300DFE77E /* GenericViews */ = {
+			isa = PBXGroup;
+			children = (
+				5AC4344E2CD41A8400DFE77E /* CardBackgroundView.swift */,
+			);
+			path = GenericViews;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -675,6 +689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC4344F2CD41A8400DFE77E /* CardBackgroundView.swift in Sources */,
 				5A0B51692C5AA75500314837 /* GenericResponse.swift in Sources */,
 				5A0B51642C5AA75500314837 /* UIViewController+DI_Extension.swift in Sources */,
 				5A0B516D2C5AA75500314837 /* DateFormatter+Extension.swift in Sources */,
@@ -699,6 +714,7 @@
 				5A0B51672C5AA75500314837 /* APIService.swift in Sources */,
 				5A0B51622C5AA75500314837 /* Dictionary+DI_Extension.swift in Sources */,
 				5A0B51912C5D170E00314837 /* PaymentMethodCarouselCell.swift in Sources */,
+				5AC434512CD41BE200DFE77E /* CardView.swift in Sources */,
 				5A469D7A2CA3304200D515A9 /* LocalizableStrings.swift in Sources */,
 				5A0B516F2C5AA75500314837 /* Enviroment.swift in Sources */,
 				5A469D852CA3397700D515A9 /* ColorSettings.swift in Sources */,

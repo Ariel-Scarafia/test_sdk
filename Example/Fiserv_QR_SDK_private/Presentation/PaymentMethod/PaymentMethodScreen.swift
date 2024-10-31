@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct PaymentMethodScreen: View {
-    @EnvironmentObject private var paymentMethodViewModel: PaymentMethodViewModel
+    @StateObject private var paymentMethodViewModel: PaymentMethodViewModel = .init()
     @State var paymentRequest: CreatePaymentRequest
     
     var body: some View {

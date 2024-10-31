@@ -10,7 +10,7 @@ import SwiftUI
 import AVKit
 
 struct QRScannerView: View {
-    @EnvironmentObject var qrScannerViewModel: QRScannerViewModel
+    @StateObject var qrScannerViewModel: QRScannerViewModel = .init()
     
     @State private var cameraPermission: CameraPermission = .idle
     @State private var session: AVCaptureSession = .init()
@@ -23,12 +23,15 @@ struct QRScannerView: View {
     var body: some View {
         NavigationStack {
             ZStack(alignment: .bottom) {
+
                 CameraView(session: $session)
                 
-                Text("Código escaneado: " + qrScannerViewModel.scannedText)
-                    .padding()
-                    .background(Color.white)
-                    .foregroundColor(.black)
+                VStack (spacing: 0) {
+                    Text("Código escaneado: " + qrScannerViewModel.scannedText)
+                        .padding()
+                        .background(Color.white)
+                        .foregroundColor(.black)
+                }
             }
             .alert(errorMessage, isPresented: $showError) {
                 if cameraPermission == .denied {
@@ -69,7 +72,6 @@ struct QRScannerView: View {
                 } else {
                     reactivateCamera()
                 }
-                
             case .notDetermined:
                 if await AVCaptureDevice.requestAccess(for: .video) {
                     cameraPermission = .approved
@@ -85,6 +87,16 @@ struct QRScannerView: View {
                     presentError("Se necesitan permisos de cámara para poder utilizar la función de pagos con QR")
                 }
             case .denied, .restricted:
+                if await AVCaptureDevice.requestAccess(for: .video) {
+                    cameraPermission = .approved
+                    
+                    if session.inputs.isEmpty {
+                        setupCamera()
+                    } else {
+                        reactivateCamera()
+                    }
+                    
+                }
                 cameraPermission = .denied
                 presentError("Se necesitan permisos de cámara para poder utilizar la función de pagos con QR")
             default: break
