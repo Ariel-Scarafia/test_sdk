@@ -14,6 +14,7 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
 @_hasMissingDesignatedInitializers public class Fiserv_QR_SDK_MAIN {
   public static func getAPIKey() -> Swift.String
   public static func setAPIKey(_ apiKey: Swift.String)
@@ -29,6 +30,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 
+
 @_hasMissingDesignatedInitializers public class Report {
   @objc deinit
 }
@@ -38,6 +40,7 @@ import _SwiftConcurrencyShims
   public static func setPaymentRejectedImage(_ imageName: Swift.String)
   @objc deinit
 }
+
 public protocol InjectionKey {
   associatedtype Value
   static var factoryValue: Self.Value { get }
@@ -52,6 +55,7 @@ extension Swift.String {
 extension Swift.Dictionary {
   public mutating func add(_ dictionary: [Key : Value])
 }
+
 
 @_hasMissingDesignatedInitializers public class ColorSettings {
   public static func setPrimaryColor(_ color: SwiftUI.Color)

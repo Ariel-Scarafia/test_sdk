@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ProcessingPayment: View {
+    @EnvironmentObject private var paymentViewModel: PaymentMethodViewModel
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -41,4 +43,5 @@ struct ProcessingPayment: View {
 
 #Preview {
     ProcessingPayment()
+        .environmentObject(PaymentMethodViewModel())
 }

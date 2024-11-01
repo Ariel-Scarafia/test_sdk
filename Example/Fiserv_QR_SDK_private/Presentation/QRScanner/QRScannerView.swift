@@ -48,8 +48,7 @@ struct QRScannerView: View {
                 }
             }
             .navigationDestination(isPresented: $qrScannerViewModel.goToPaymentMethod) {
-                PaymentMethodScreen(paymentRequest: qrScannerViewModel.paymentRequest)
-                    .environmentObject(PaymentMethodViewModel())
+                PaymentMethodScreen()
             }
             .onAppear {
                 checkCameraPermission()

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A04C96C2CA750D9007F861F /* PaymentConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A04C96B2CA750D9007F861F /* PaymentConfirmation.swift */; };
+		5A04C96C2CA750D9007F861F /* PaymentResponseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A04C96B2CA750D9007F861F /* PaymentResponseTransition.swift */; };
 		5A0B51252C5AA66E00314837 /* Fiserv_QR_SDK_private.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51242C5AA66E00314837 /* Fiserv_QR_SDK_private.docc */; };
 		5A0B51262C5AA66E00314837 /* Fiserv_QR_SDK_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0B51232C5AA66E00314837 /* Fiserv_QR_SDK_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A0B515F2C5AA75500314837 /* report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51462C5AA75500314837 /* report.swift */; };
@@ -53,6 +53,9 @@
 		5ABE9E962CA5BEB800E7C0C7 /* QRScannerVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */; };
 		5AC4344F2CD41A8400DFE77E /* CardBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4344E2CD41A8400DFE77E /* CardBackgroundView.swift */; };
 		5AC434512CD41BE200DFE77E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC434502CD41BE200DFE77E /* CardView.swift */; };
+		5AC434552CD436F300DFE77E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC434542CD436F300DFE77E /* BaseViewModel.swift */; };
+		5AC434572CD437E600DFE77E /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC434562CD437E600DFE77E /* DefaultButton.swift */; };
+		5AC434592CD4DC6200DFE77E /* PaymentConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC434582CD4DC6200DFE77E /* PaymentConfirmation.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -74,7 +77,7 @@
 /* Begin PBXFileReference section */
 		0C819D209182872EA0CBBE2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		331D8EAACED4E18A325CEA8D /* libPods-Fiserv_QR_SDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fiserv_QR_SDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A04C96B2CA750D9007F861F /* PaymentConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmation.swift; sourceTree = "<group>"; };
+		5A04C96B2CA750D9007F861F /* PaymentResponseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentResponseTransition.swift; sourceTree = "<group>"; };
 		5A04C9742CA75946007F861F /* Fiserv-QR-SDK-private-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fiserv-QR-SDK-private-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5A04C9752CA759BD007F861F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
 		5A04C9762CA759BE007F861F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -125,6 +128,9 @@
 		5ABE9E952CA5BEB800E7C0C7 /* QRScannerVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerVIewModel.swift; sourceTree = "<group>"; };
 		5AC4344E2CD41A8400DFE77E /* CardBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackgroundView.swift; sourceTree = "<group>"; };
 		5AC434502CD41BE200DFE77E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5AC434542CD436F300DFE77E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		5AC434562CD437E600DFE77E /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		5AC434582CD4DC6200DFE77E /* PaymentConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmation.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Fiserv_QR_SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiserv_QR_SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +183,7 @@
 		5A0B51222C5AA66E00314837 /* Fiserv_QR_SDK_private */ = {
 			isa = PBXGroup;
 			children = (
+				5AC434522CD436DB00DFE77E /* Domain */,
 				5A04C9742CA75946007F861F /* Fiserv-QR-SDK-private-Info.plist */,
 				5A469D8D2CA3493B00D515A9 /* README.md */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -185,7 +192,6 @@
 				5A0B51852C5C067100314837 /* Presentation */,
 				5A0B51452C5AA75500314837 /* Application */,
 				5A0B51232C5AA66E00314837 /* Fiserv_QR_SDK_private.h */,
-				5A0B51242C5AA66E00314837 /* Fiserv_QR_SDK_private.docc */,
 			);
 			path = Fiserv_QR_SDK_private;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 		5A0B51452C5AA75500314837 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5A0B51242C5AA66E00314837 /* Fiserv_QR_SDK_private.docc */,
 				5A0B51462C5AA75500314837 /* report.swift */,
 				5A0B515D2C5AA75500314837 /* Environment */,
 				5A0B51482C5AA75500314837 /* DIFramework */,
@@ -369,7 +376,8 @@
 			isa = PBXGroup;
 			children = (
 				5A469D962CA43F5A00D515A9 /* ProcessingPayment.swift */,
-				5A04C96B2CA750D9007F861F /* PaymentConfirmation.swift */,
+				5A04C96B2CA750D9007F861F /* PaymentResponseTransition.swift */,
+				5AC434582CD4DC6200DFE77E /* PaymentConfirmation.swift */,
 			);
 			path = ProcessingPayment;
 			sourceTree = "<group>";
@@ -386,8 +394,25 @@
 			isa = PBXGroup;
 			children = (
 				5AC4344E2CD41A8400DFE77E /* CardBackgroundView.swift */,
+				5AC434562CD437E600DFE77E /* DefaultButton.swift */,
 			);
 			path = GenericViews;
+			sourceTree = "<group>";
+		};
+		5AC434522CD436DB00DFE77E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5AC434532CD436E300DFE77E /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5AC434532CD436E300DFE77E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				5AC434542CD436F300DFE77E /* BaseViewModel.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -696,6 +721,7 @@
 				5A0B519B2C5D3A8C00314837 /* JsonDecoder.swift in Sources */,
 				5A0B516E2C5AA75500314837 /* Fiserv_QR_SDK_MAIN.swift in Sources */,
 				5A0B51252C5AA66E00314837 /* Fiserv_QR_SDK_private.docc in Sources */,
+				5AC434572CD437E600DFE77E /* DefaultButton.swift in Sources */,
 				5A0B51682C5AA75500314837 /* APIEndpoints.swift in Sources */,
 				5A469D832CA3334500D515A9 /* UIColor+Extension.swift in Sources */,
 				5A469D972CA43F5A00D515A9 /* ProcessingPayment.swift in Sources */,
@@ -703,9 +729,11 @@
 				5A0B51662C5AA75500314837 /* APIProtocol.swift in Sources */,
 				5A9758AA2CAAE47E00CB5B59 /* ImagesResources.swift in Sources */,
 				5A469D7F2CA3325700D515A9 /* LocalizableStrings+Extension.swift in Sources */,
+				5AC434592CD4DC6200DFE77E /* PaymentConfirmation.swift in Sources */,
 				5A9758B92CAB3AB300CB5B59 /* CameraView.swift in Sources */,
 				5A0B51632C5AA75500314837 /* DIFramework.swift in Sources */,
 				5A0B516C2C5AA75500314837 /* Encodable+Extension.swift in Sources */,
+				5AC434552CD436F300DFE77E /* BaseViewModel.swift in Sources */,
 				5ABE9E962CA5BEB800E7C0C7 /* QRScannerVIewModel.swift in Sources */,
 				5A9016092C9C90E400F54259 /* QRScannerView.swift in Sources */,
 				5A469D812CA332EA00D515A9 /* String+Extensions.swift in Sources */,
@@ -729,7 +757,7 @@
 				5A469D942CA4102D00D515A9 /* DataScannerRepresentable.swift in Sources */,
 				5A0B51892C5C06C400314837 /* PaymentMethodScreen.swift in Sources */,
 				5A9758BB2CAB3D8A00CB5B59 /* CameraPermission.swift in Sources */,
-				5A04C96C2CA750D9007F861F /* PaymentConfirmation.swift in Sources */,
+				5A04C96C2CA750D9007F861F /* PaymentResponseTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

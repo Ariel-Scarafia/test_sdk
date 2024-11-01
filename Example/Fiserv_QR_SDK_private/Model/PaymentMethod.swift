@@ -23,5 +23,6 @@ struct CreatePaymentRequest: Codable {
     var servicio: String = "Luz"
     var uuid = "UUID"
     var cardNumber: Int?
+    var cardHolder: String = "Usuario Generico"
     var paymentOptions: [PaymentMethodOption]?
 }

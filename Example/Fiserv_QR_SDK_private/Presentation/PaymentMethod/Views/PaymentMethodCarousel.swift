@@ -11,7 +11,7 @@ import SwiftUI
 struct PaymentMethodCarousel: View {
     var screenWidth: CGFloat = UIScreen.main.bounds.width
 //    var frameHeight: CGFloat = 143
-    var paymentMethods: [PaymentMethodOption]
+    @Binding var paymentMethods: [PaymentMethodOption]
     
     @State private var activeCardIndex: Int? = 0
     @State private var itemsArray: [[PaymentMethodOption]] = []
@@ -118,7 +118,7 @@ struct PaymentMethodCarousel: View {
 
 #Preview {
     PaymentMethodCarousel(
-        paymentMethods: [
+        paymentMethods: .constant([
             PaymentMethodOption(
                 id: 0,
                 cardName: "Visa",
@@ -137,6 +137,6 @@ struct PaymentMethodCarousel: View {
                 cardHolder: "Juan",
                 cardLogo: "card_visa_debit"
             )
-        ]
+        ])
     )
 }

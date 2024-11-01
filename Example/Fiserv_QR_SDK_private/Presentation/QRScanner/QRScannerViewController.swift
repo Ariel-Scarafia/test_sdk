@@ -81,7 +81,7 @@ class QRScannerViewController: UIViewController {
         var paymentRequest = CreatePaymentRequest()
         paymentRequest.paymentOptions = paymentOptions
         
-        let carouselView = PaymentMethodScreen(paymentRequest: paymentRequest)
+        let carouselView = PaymentMethodScreen()
         let carouselViewCtrl = UIHostingController(rootView: carouselView)
         addChild(carouselViewCtrl)
         carouselViewCtrl.view.frame = self.view.bounds

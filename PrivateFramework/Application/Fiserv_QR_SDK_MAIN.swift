@@ -55,7 +55,7 @@ public class Fiserv_QR_SDK_MAIN {
     
     static public func getPaymentView() -> some View {
         paymentRequest.paymentOptions = paymentOptions
-        return PaymentMethodScreen(paymentRequest: paymentRequest)
+        return PaymentMethodScreen()
     }
     
     static public func getScannerView() -> some View {
