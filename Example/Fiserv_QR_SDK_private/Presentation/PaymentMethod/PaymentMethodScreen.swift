@@ -62,20 +62,6 @@ struct PaymentMethodScreen: View {
                         paymentMethodViewModel.goToAwaitPayment()
                     }
                     .padding(.horizontal, 15)
-//                    Button {
-//                        paymentMethodViewModel.goToAwaitPayment()
-//                    } label: {
-//                          Text(LocalizableStrings.payment_methods_pay.localized())
-////                        Text("Pagar")
-//                            .foregroundStyle(.white)
-//                            .frame(width: 328, height: 48)
-//                            .background(content: {
-//                                RoundedRectangle(cornerRadius: 3)
-//                                    .foregroundStyle(ColorSettings.colorPrimary)
-//                            })
-//                    }
-//                    .padding(.bottom)
-//                    .padding(.top, 30)
                 }
             }
             .onChange(of: paymentMethodViewModel.goToStart) {

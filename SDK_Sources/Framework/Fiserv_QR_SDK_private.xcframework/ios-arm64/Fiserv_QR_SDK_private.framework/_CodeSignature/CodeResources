@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		NTsxk8VbALqIXAKG+CP+ke/UM8w=
+		</data>
 		<key>Headers/Fiserv_QR_SDK_private-Swift.h</key>
 		<data>
-		vWIo7MSe2GpZ+5r9PEmqGq5AZ6E=
+		vcv+4fmf/F3dmHgdFIlzBEba8ts=
 		</data>
 		<key>Headers/Fiserv_QR_SDK_private.h</key>
 		<data>
@@ -18,11 +22,11 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cu3wysxQ+v+exv50KLf3gxQKkkM=
+		Qb/f2AzWoeOoAz1VdKYwCWa8GBY=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		YALgsEcSt5E7McvFh4fM+Jjrw1c=
+		O6w8Vw0KjTOfwzO1sOZDGZO3p4c=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +34,11 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		YALgsEcSt5E7McvFh4fM+Jjrw1c=
+		O6w8Vw0KjTOfwzO1sOZDGZO3p4c=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/eozn0wB98ghXQzw722pdVHW9Wc=
+		KCwe7la1n7pn8d+YzvE8VwKFaBA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,14 +61,25 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>wallet_animation.json</key>
+		<data>
+		Skgh3+cHRbHI08Z1KcAUOSqqpxs=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y2s9TcSsURUK5qkyM/ZJBCxidHikJVaQriu9qmYCDao=
+			</data>
+		</dict>
 		<key>Headers/Fiserv_QR_SDK_private-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ahdb/aCw9OW0z4JQY9BczPshAUeDXcrcwaYEIStiASU=
+			9a31p4+NCDwz5omsCbPvfhIxj+1KBWLZlKSj9YuOXyI=
 			</data>
 		</dict>
 		<key>Headers/Fiserv_QR_SDK_private.h</key>
@@ -78,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyYY2kZdEts8xwZpSmK3oeiaU7VdiR4HRPNT9tRXF5s=
+			o225XPrVsp/OZ3I1ev0LHEAhGJeL+rKPfLxYkil4nYo=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjPKYynkQKKZ2PKXSlZ/kdI9063GPI3vgg/q9/6XpUw=
+			kZppWhgpupebi3Bgp7xGJdh2FjwIn5x8JjDAbTPnjcY=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -99,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjPKYynkQKKZ2PKXSlZ/kdI9063GPI3vgg/q9/6XpUw=
+			kZppWhgpupebi3Bgp7xGJdh2FjwIn5x8JjDAbTPnjcY=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wVW+rxVZJrF/vEeHzJ63mIqX2JuXFSz4sNg8fSsesB8=
+			Bdiau91/j5k5zAf4eUQhvS6YXJBhAen2FpyGhPDynIY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -138,6 +153,13 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>wallet_animation.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/m5S+GvLI7FNvKjldzoc398u3tOnWt9QcWjv14c1zt0=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

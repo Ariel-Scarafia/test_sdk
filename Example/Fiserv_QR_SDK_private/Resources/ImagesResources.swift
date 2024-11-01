@@ -10,7 +10,7 @@ import Foundation
 
 public final class ImagesResources {
     
-    static private (set) var processingPaymentImageName: String = "give_us_a_few_seconds"
+    static private (set) var processingPaymentImageName: String = "wallet_animation"
  
     static private (set) var paymentApprovedImageName: String = "icon_approved_big"
     

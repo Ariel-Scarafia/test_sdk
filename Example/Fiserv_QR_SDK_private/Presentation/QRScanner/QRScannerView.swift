@@ -26,12 +26,12 @@ struct QRScannerView: View {
 
                 CameraView(session: $session)
                 
-                VStack (spacing: 0) {
-                    Text("Código escaneado: " + qrScannerViewModel.scannedText)
-                        .padding()
-                        .background(Color.white)
-                        .foregroundColor(.black)
-                }
+//                VStack (spacing: 0) {
+//                    Text("Código escaneado: " + qrScannerViewModel.scannedText)
+//                        .padding()
+//                        .background(Color.white)
+//                        .foregroundColor(.black)
+//                }
             }
             .alert(errorMessage, isPresented: $showError) {
                 if cameraPermission == .denied {

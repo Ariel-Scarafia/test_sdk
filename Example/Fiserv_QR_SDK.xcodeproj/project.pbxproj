@@ -32,6 +32,8 @@
 		5A0B51912C5D170E00314837 /* PaymentMethodCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */; };
 		5A0B51932C5D189400314837 /* PaymentMethodOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B51922C5D189400314837 /* PaymentMethodOption.swift */; };
 		5A0B519B2C5D3A8C00314837 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */; };
+		5A35C9852CD5025A0078C501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A35C9842CD5025A0078C501 /* Assets.xcassets */; };
+		5A35C9872CD502B60078C501 /* wallet_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A35C9862CD502B60078C501 /* wallet_animation.json */; };
 		5A469D7A2CA3304200D515A9 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D792CA3304200D515A9 /* LocalizableStrings.swift */; };
 		5A469D7C2CA330BB00D515A9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5A469D7B2CA330BB00D515A9 /* Localizable.xcstrings */; settings = {ASSET_TAGS = (New, ); }; };
 		5A469D7F2CA3325700D515A9 /* LocalizableStrings+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A469D7E2CA3325700D515A9 /* LocalizableStrings+Extension.swift */; };
@@ -106,6 +108,8 @@
 		5A0B51902C5D170E00314837 /* PaymentMethodCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodCarouselCell.swift; sourceTree = "<group>"; };
 		5A0B51922C5D189400314837 /* PaymentMethodOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodOption.swift; sourceTree = "<group>"; };
 		5A0B519A2C5D3A8C00314837 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		5A35C9842CD5025A0078C501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A35C9862CD502B60078C501 /* wallet_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wallet_animation.json; sourceTree = "<group>"; };
 		5A469D792CA3304200D515A9 /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
 		5A469D7B2CA330BB00D515A9 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		5A469D7E2CA3325700D515A9 /* LocalizableStrings+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocalizableStrings+Extension.swift"; sourceTree = "<group>"; };
@@ -344,12 +348,14 @@
 		5A0B51942C5D2B0600314837 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A35C9862CD502B60078C501 /* wallet_animation.json */,
 				5A9758A92CAAE47E00CB5B59 /* ImagesResources.swift */,
 				5A469D7D2CA3325700D515A9 /* Extensions */,
 				5A469D7B2CA330BB00D515A9 /* Localizable.xcstrings */,
 				5A469D792CA3304200D515A9 /* LocalizableStrings.swift */,
 				5A469D842CA3397700D515A9 /* ColorSettings.swift */,
 				5A469D862CA33AB400D515A9 /* FontSettings.swift */,
+				5A35C9842CD5025A0078C501 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -625,6 +631,8 @@
 			files = (
 				5A469D7C2CA330BB00D515A9 /* Localizable.xcstrings in Resources */,
 				5A469D8B2CA33B1800D515A9 /* Montserrat.ttf in Resources */,
+				5A35C9852CD5025A0078C501 /* Assets.xcassets in Resources */,
+				5A35C9872CD502B60078C501 /* wallet_animation.json in Resources */,
 				5A469D8C2CA33B1800D515A9 /* OpenSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

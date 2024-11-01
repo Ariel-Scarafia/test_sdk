@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
+import DeveloperToolsSupport
 @_exported import Fiserv_QR_SDK_private
 import Foundation
 import Swift
