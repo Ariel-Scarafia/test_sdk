@@ -4,14 +4,33 @@
     "%lld" : {
 
     },
+    "a %@" : {
+
+    },
     "Aguarde unos segundos" : {
 
     },
     "Cancel" : {
 
     },
+    "Elige uno de los medios de pago" : {
+
+    },
     "Estamos procesando el pago" : {
 
+    },
+    "Ingrese el monto a pagar" : {
+
+    },
+    "Pagaste %@ %lld" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pagaste %1$@ %2$lld"
+          }
+        }
+      }
     },
     "payment_approved" : {
       "extractionState" : "manual",
@@ -69,6 +88,9 @@
       }
     },
     "Settigns" : {
+
+    },
+    "Vas a pagarle a" : {
 
     }
   },

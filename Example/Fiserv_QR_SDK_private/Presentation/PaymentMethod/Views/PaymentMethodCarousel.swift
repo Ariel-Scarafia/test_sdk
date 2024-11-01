@@ -11,7 +11,7 @@ import SwiftUI
 struct PaymentMethodCarousel: View {
     var screenWidth: CGFloat = UIScreen.main.bounds.width
 //    var frameHeight: CGFloat = 143
-    @Binding var paymentMethods: [PaymentMethodOption]
+    @State var paymentMethods: [PaymentMethodOption]
     
     @State private var activeCardIndex: Int? = 0
     @State private var itemsArray: [[PaymentMethodOption]] = []
@@ -29,27 +29,25 @@ struct PaymentMethodCarousel: View {
                 HStack(spacing: 0) {
                     ForEach(0..<itemsTemp.count, id: \.self) { index in
                         let item = itemsTemp[index]
-                        VStack {
 //                            PaymentMethodCarouselCell(
-                            CardView(
-                                width: cellWidth,
-                                height: cellHeight,
-                                typeOfCard: "CRÉDITO",
-                                cardHolder: item.cardHolder,
-                                cardLogo: "icon_VISA",
-                                cardNumber: item.numberCardComplete
+                        CardView(
+                            width: cellWidth,
+                            height: cellHeight,
+                            typeOfCard: "CRÉDITO",
+                            cardHolder: item.cardHolder,
+                            cardLogo: "icon_VISA",
+                            cardNumber: item.numberCardComplete
 //                                paymentOption: item
-                            )
-                            .padding(.horizontal, (widthDifference)/2)
-                            .offset(x: getScrollOffset(for: index, widthDifference: widthDifference))
-                        }
+                        )
+                        .padding(.horizontal, (widthDifference)/2)
+                        .offset(x: getScrollOffset(for: index, widthDifference: widthDifference))
                     }
                 }
                 .scrollTargetLayout()
             }
             .frame(height: cellHeight)
-            .scrollTargetBehavior(.paging)
             .scrollPosition(id: $activeCardIndex, anchor: .center)
+            .scrollTargetBehavior(.paging)
             .scrollIndicators(.hidden)
             .onAppear {
                 self.itemsArray = [paymentMethods, paymentMethods, paymentMethods]
@@ -118,7 +116,7 @@ struct PaymentMethodCarousel: View {
 
 #Preview {
     PaymentMethodCarousel(
-        paymentMethods: .constant([
+        paymentMethods: [
             PaymentMethodOption(
                 id: 0,
                 cardName: "Visa",
@@ -137,6 +135,6 @@ struct PaymentMethodCarousel: View {
                 cardHolder: "Juan",
                 cardLogo: "card_visa_debit"
             )
-        ])
+        ]
     )
 }

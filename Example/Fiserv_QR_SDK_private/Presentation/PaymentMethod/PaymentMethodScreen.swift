@@ -43,9 +43,12 @@ struct PaymentMethodScreen: View {
                         VStack(spacing: 10) {
 //                            Text(LocalizableStrings.payment_methods_select_payment_method.localized())
                             Text("Elige uno de los medios de pago")
-                            PaymentMethodCarousel(
-                                paymentMethods: $paymentMethodViewModel.paymentOptions
-                            )
+                            GeometryReader { geometry in
+                                PaymentMethodCarousel(
+                                    screenWidth: geometry.size.width,
+                                    paymentMethods: paymentMethodViewModel.paymentOptions
+                                )
+                            }
                             .frame(height: 143)
                         }
                         .padding(.vertical, 30)
