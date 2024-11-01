@@ -2826,20 +2826,20 @@
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Resources\/ImagesResources.swift",
       "kind": "StringLiteral",
       "offset": 285,
-      "length": 18,
-      "value": "\"wallet_animation\""
+      "length": 23,
+      "value": "\"give_us_a_few_seconds\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Resources\/ImagesResources.swift",
       "kind": "StringLiteral",
-      "offset": 370,
+      "offset": 396,
       "length": 19,
       "value": "\"icon_approved_big\""
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Resources\/ImagesResources.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 485,
       "length": 19,
       "value": "\"icon_rejected_big\""
     },
@@ -5856,23 +5856,37 @@
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/PaymentMethod\/PaymentMethodViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1514,
+      "offset": 1457,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/PaymentMethod\/PaymentMethodViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1560,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/PaymentMethod\/PaymentMethodViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1644,
+      "offset": 1690,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/PaymentMethod\/PaymentMethodViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1705,
+      "offset": 1751,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/PaymentMethod\/PaymentMethodViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1796,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/QRScanner\/QRScannerViewController.swift",
@@ -6554,13 +6568,6 @@
       "value": "15"
     },
     {
-      "filePath": "\/Users\/ascarafia\/Documents\/iOS_Apps\/Fiserv_QR_SDK\/Fiserv_QR_SDK\/Example\/Fiserv_QR_SDK_private\/Presentation\/PaymentMethod\/PaymentMethodScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3272,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "@__swiftmacro_21Fiserv_QR_SDK_private33_4D9F1FC040BF34E8407835480F5C62FCLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
       "offset": 252,
@@ -6572,7 +6579,7 @@
       "kind": "IntegerLiteral",
       "offset": 329,
       "length": 2,
-      "value": "90"
+      "value": "88"
     },
     {
       "filePath": "@__swiftmacro_21Fiserv_QR_SDK_private33_4D9F1FC040BF34E8407835480F5C62FCLl7PreviewfMf0_.swift",

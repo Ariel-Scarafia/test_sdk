@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Qb/f2AzWoeOoAz1VdKYwCWa8GBY=
+		dNfjWb6wUFkGa8Rn48Hz6pXPe7Q=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KCwe7la1n7pn8d+YzvE8VwKFaBA=
+		7F9nJ8UtjK3B4jbIlnGlj75nvXM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o225XPrVsp/OZ3I1ev0LHEAhGJeL+rKPfLxYkil4nYo=
+			RNysE+barCRgPm3BPuDxcTb/XihbAfkVMDtPH3zsZmk=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bdiau91/j5k5zAf4eUQhvS6YXJBhAen2FpyGhPDynIY=
+			pdrgDBwnJ8iw/WZFw8k00pWM1MQBMDJ0N8twJlcIkMg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

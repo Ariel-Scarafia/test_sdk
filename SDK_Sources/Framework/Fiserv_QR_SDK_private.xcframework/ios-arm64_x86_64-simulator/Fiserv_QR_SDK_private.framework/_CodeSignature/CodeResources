@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Qb/f2AzWoeOoAz1VdKYwCWa8GBY=
+		dNfjWb6wUFkGa8Rn48Hz6pXPe7Q=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SkscyacJlafbke2BOndsAGvxqA8=
+		RfSQv6jYwFK6pKXimYPLTKFuXqU=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Qb/f2AzWoeOoAz1VdKYwCWa8GBY=
+		dNfjWb6wUFkGa8Rn48Hz6pXPe7Q=
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/Th8vASZgkvER2wNpi/zF0e88Mo=
+		nO9WMIMzvR87mePfoy+ZfYJ8WUI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o225XPrVsp/OZ3I1ev0LHEAhGJeL+rKPfLxYkil4nYo=
+			RNysE+barCRgPm3BPuDxcTb/XihbAfkVMDtPH3zsZmk=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HSJJ0qOEXJzCzeALz0/XXR5eC4eDlJx8sLB55V28c2M=
+			AL5B01N8M7adkp+HHoHcrFy6wXt0NEgQE89Y717ksCY=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o225XPrVsp/OZ3I1ev0LHEAhGJeL+rKPfLxYkil4nYo=
+			RNysE+barCRgPm3BPuDxcTb/XihbAfkVMDtPH3zsZmk=
 			</data>
 		</dict>
 		<key>Modules/Fiserv_QR_SDK_private.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/YTbZJwUzTBpWNma+KuKllziyrUuZKMcaK3mwlieaS8=
+			F2BurRNodLWchxsRqZNACHrFy8TU9OXlO1BmAVr27b4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

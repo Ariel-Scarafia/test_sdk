@@ -49,6 +49,7 @@ class PaymentMethodViewModel: BaseViewModel {
         goToAwaitingPayment = true
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) { [weak self] in
             self?.goToPaymentCompleted = true
+            self?.goToAwaitingPayment = false
             self?.hideLoader()
         }
     }
@@ -61,6 +62,7 @@ class PaymentMethodViewModel: BaseViewModel {
         showLoader()
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) { [weak self] in
             self?.goToPaymentCompleted = true
+            self?.goToAwaitingPayment = false
             self?.hideLoader()
         }
     }

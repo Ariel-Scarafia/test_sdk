@@ -74,10 +74,8 @@ struct PaymentMethodScreen: View {
                     .environmentObject(paymentMethodViewModel)
             }
             .navigationDestination(isPresented: $paymentMethodViewModel.goToPaymentCompleted) {
-                withAnimation(.easeIn(duration: 2)) {
-                    PaymentConfirmation()
-                        .environmentObject(paymentMethodViewModel)
-                }
+                PaymentConfirmation()
+                    .environmentObject(paymentMethodViewModel)
             }
             .onAppear() {
                 paymentMethodViewModel.prepareScreen()
